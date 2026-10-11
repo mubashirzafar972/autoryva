@@ -1,0 +1,12 @@
+{
+  "name": "autoryva",
+  "version": "1.0.0",
+  "description": "Autoryva vintage car archive (data from Wikipedia)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "fetch": "node fetch-wiki.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.19.2" }
+}

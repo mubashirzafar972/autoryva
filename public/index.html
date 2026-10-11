@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="data:,">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Autoryva | Vintage Car Archive</title>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;700&family=DM+Sans:wght@400;500;700&family=Kanit:ital,wght@0,500;0,700;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="load" class="first" role="status" aria-label="Loading"><div class="ll"><svg width="96" height="73" aria-hidden="true" style="--lc:var(--ink);--lb:var(--bg);overflow:visible"><use href="#lg"/></svg><div>Auto<span>ryva</span></div></div><div class="road"><div class="mc"><svg width="64" height="30" viewBox="0 0 64 30" aria-hidden="true"><path d="M2 20c0-3 2-5 6-5l7-1 6-8h14l7 8 8 2c3 1 4 2 4 4v3H2z" fill="#B08D57"/><g class="wh"><circle cx="16" cy="23" r="5" fill="#0F1715" stroke="#EDEEE8" stroke-width="1.5"/><path d="M16 19v8M12 23h8" stroke="#EDEEE8"/></g><g class="wh"><circle cx="48" cy="23" r="5" fill="#0F1715" stroke="#EDEEE8" stroke-width="1.5"/><path d="M48 19v8M44 23h8" stroke="#EDEEE8"/></g></svg></div></div><small>Warming up the engine</small></div>
+<nav><div class="wrap"><svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="lg" viewBox="20 0 76 56"><circle cx="62" cy="28" r="26" fill="#fff" stroke="#000" stroke-width="2"/><image href="assets/logo-car.png" x="26" y="16" width="62" height="23.9" style="filter:drop-shadow(.8px 0 0 #fff) drop-shadow(-.8px 0 0 #fff) drop-shadow(0 .8px 0 #fff) drop-shadow(0 -.8px 0 #fff)"/></symbol></svg><a class="logo" href="#/" style="margin:0;color:var(--navink);display:flex;align-items:center;gap:10px"><svg width="66" height="50" aria-hidden="true" style="--lc:#F7F3E6;--lb:#4B5A2A;overflow:visible"><use href="#lg"/></svg><span style="color:var(--navink)">Auto<span>ryva</span></span></a><div><a href="#/" data-p="home">Home</a><a href="#/gallery" data-p="gallery">Gallery</a><a href="#/about" data-p="about">About</a></div></div></nav>
+<div class="page" id="p-home">
+
+<header class="hero"><div class="slider" id="slider"></div><div class="wrap">
+<div>
+<h1>The vintage car archive.</h1>
+<p>Browse classic cars by make, model and production year. Every entry has a photo, the years it was built, and a short history.</p>
+<form class="search" id="hs"><input id="hq" type="search" placeholder="Search make or model" aria-label="Search cars"><button class="btn">Search</button></form>
+</div>
+<div class="dots" id="dots"></div><div class="cap" id="cap"></div>
+</div></header>
+<section class="wrap" style="padding:48px 20px 0"><h2 style="font-size:1.8rem;margin-bottom:20px">Browse by decade</h2><div class="grid" id="decs" style="padding-bottom:28px"></div></section>
+<section class="wrap" style="padding:20px 20px 64px"><h2 style="font-size:1.8rem;margin-bottom:20px">Featured cars</h2><div class="grid" id="feat" style="padding-bottom:28px"></div><a class="btn" href="#/gallery" style="display:inline-block;text-decoration:none">View full gallery</a></section></div>
+
+<div class="page" id="p-gallery" hidden><main class="wrap" id="cars"><h1 style="font-size:2.2rem;margin-top:36px">Gallery</h1>
+<div class="bar" role="group" aria-label="Filter by decade">
+<button class="chip" aria-pressed="true" data-d="all">All eras</button>
+<button class="chip" aria-pressed="false" data-d="1920">1920s</button>
+<button class="chip" aria-pressed="false" data-d="1930">1930s</button>
+<button class="chip" aria-pressed="false" data-d="1950">1950s</button>
+<button class="chip" aria-pressed="false" data-d="1960">1960s</button>
+<button class="chip" aria-pressed="false" data-d="1970">1970s</button>
+<input id="q" type="search" placeholder="Search make or model" aria-label="Search cars" style="padding:8px 12px;border-radius:6px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit"><span class="sp"></span>
+<select id="country" aria-label="Country"><option value="all">All countries</option></select>
+</div>
+<div class="count" id="count"></div>
+<div class="grid" id="grid"></div>
+</main></div>
+
+<div class="page" id="p-about" hidden><section style="padding:64px 0"><div class="wrap">
+<h1 style="font-size:2.2rem;margin-bottom:12px">About Autoryva</h1>
+<p style="max-width:62ch;color:var(--mute);margin:0">A growing collection of classic cars. Each photo is credited to its photographer and license, and each entry lists make, model and years of production.</p>
+</div></section>
+</div><footer><div class="wrap">Autoryva. Car text and photos come from Wikipedia and Wikimedia Commons. The license and photographer are listed on each car.</div></footer>
+
+<dialog id="dlg"><div id="dbody"></div></dialog>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
