@@ -1,11 +1,14 @@
 /* Autoryva - app logic */
-const API_URL="/api/cars"; // served by server.js (data from Wikipedia)
+// Tries the Node server first, then the static data file (used on free static hosting)
 let cars=[];
+const API_URLS=["/api/cars","data/cars.json"];
 async function loadCars(){
-  try{
-    const r=await fetch(API_URL); if(!r.ok) throw new Error(r.status);
-    const list=await r.json(); if(Array.isArray(list)&&list.length) return list;
-  }catch(e){console.warn("API not available, showing sample cars",e)}
+  for(const u of API_URLS){
+    try{
+      const r=await fetch(u); if(!r.ok) continue;
+      const list=await r.json(); if(Array.isArray(list)&&list.length) return list;
+    }catch(e){}
+  }
   return CARS;
 }
 const esc=t=>String(t==null?"":t).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
@@ -62,7 +65,7 @@ const list=cars.filter(c=>(dec=="all"||(c.from<+dec+10&&c.to>=+dec))&&(ctry=="al
 $("#count").textContent=list.length+" cars";
 $("#grid").innerHTML=list.length?list.map(c=>{const i=cars.indexOf(c);return `<button class="card" onclick="show(${i})">${thumb(c)}<div class="b"><span class="yr">${c.from}–${c.to}</span><h3 style="margin-top:8px">${esc(c.make)} ${esc(c.model)}</h3><div class="meta">${esc(c.country)}</div><p>${esc((c.d||"").slice(0,90))}…</p></div></button>`}).join(""):`<div class="empty">No cars match. Try another era or clear the search.</div>`;
 }
-function show(i){const c=cars[i];const cr=c.credit?`<p class="credit">Photo: ${esc(c.credit.author||"Unknown")}${c.credit.license?", "+(c.credit.licenseUrl?`<a href="${esc(c.credit.licenseUrl)}" target="_blank" rel="noopener">${esc(c.credit.license)}</a>`:esc(c.credit.license)):""}${c.credit.page?` (<a href="${esc(c.credit.page)}" target="_blank" rel="noopener">source</a>)`:""}</p>`:"";const wk=c.wiki?`<p><a href="${esc(c.wiki)}" target="_blank" rel="noopener">Read more on Wikipedia</a></p>`:"";$("#dbody").innerHTML=`${thumb(c)}<div class="b"><h2>${esc(c.make)} ${esc(c.model)}</h2><p style="color:var(--mute)">${esc(c.d)}</p><dl><dt>Make</dt><dd>${esc(c.make)}</dd><dt>Model</dt><dd>${esc(c.model)}</dd><dt>Produced</dt><dd>${c.from} to ${c.to}</dd><dt>Country</dt><dd>${esc(c.country)}</dd></dl>${wk}${cr}<button class="btn" onclick="dlg.close()">Close</button></div>`;dlg.showModal()}
+function show(i){const c=cars[i];const cr=c.credit?`<p class="credit">Photo: ${esc(c.credit.author||"Wikimedia Commons")}${c.credit.license?", "+(c.credit.licenseUrl?`<a href="${esc(c.credit.licenseUrl)}" target="_blank" rel="noopener">${esc(c.credit.license)}</a>`:esc(c.credit.license)):""}${c.credit.page?` (<a href="${esc(c.credit.page)}" target="_blank" rel="noopener">source</a>)`:""}</p>`:"";const wk=c.wiki?`<p><a href="${esc(c.wiki)}" target="_blank" rel="noopener">Read more on Wikipedia</a></p>`:"";$("#dbody").innerHTML=`${thumb(c)}<div class="b"><h2>${esc(c.make)} ${esc(c.model)}</h2><p style="color:var(--mute)">${esc(c.d)}</p><dl><dt>Make</dt><dd>${esc(c.make)}</dd><dt>Model</dt><dd>${esc(c.model)}</dd><dt>Produced</dt><dd>${c.from} to ${c.to}</dd><dt>Country</dt><dd>${esc(c.country)}</dd></dl>${wk}${cr}<button class="btn" onclick="dlg.close()">Close</button></div>`;dlg.showModal()}
 document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");dec=b.dataset.d;render()});
 $("#country").onchange=e=>{ctry=e.target.value;render()};
 $("#q").oninput=render;

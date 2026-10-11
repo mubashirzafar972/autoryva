@@ -5,8 +5,13 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "fetch": "node fetch-wiki.js"
+    "fetch": "node fetch-wiki.js",
+    "build": "node build.js"
   },
-  "engines": { "node": ">=18" },
-  "dependencies": { "express": "^4.19.2" }
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
