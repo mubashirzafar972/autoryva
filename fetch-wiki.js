@@ -155,6 +155,12 @@ async function buildData() {
 
   fs.mkdirSync(path.dirname(OUT), { recursive: true });
   fs.writeFileSync(OUT, JSON.stringify(cars, null, 2));
+  // Also copy the data into public/data so the static website (Netlify) can read it
+  try {
+    const pub = path.join(__dirname, 'public', 'data');
+    fs.mkdirSync(pub, { recursive: true });
+    fs.writeFileSync(path.join(pub, 'cars.json'), JSON.stringify(cars));
+  } catch (e) { console.warn('  Could not copy data to public/data:', e.message); }
   console.log(`Saved ${cars.length} of ${seed.length} cars to data/cars.json (${cars.filter(c => c.image).length} with photos)`);
   const noPhoto = cars.filter(c => !c.image).map(c => `${c.make} ${c.model}`);
   if (noPhoto.length) console.log('Cars without a photo:', noPhoto.join(', '), '\n  Fix: add "imageFile":"File name from Wikimedia Commons.jpg" to that car in seed-cars.json');
