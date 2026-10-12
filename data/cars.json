@@ -1,5 +1,71 @@
 [
   {
+    "id": "benz-patent-motorwagen",
+    "make": "Benz",
+    "model": "Patent-Motorwagen",
+    "from": 1885,
+    "to": 1893,
+    "country": "Germany",
+    "d": "Benz Patent-Motorwagen (\"patent motorcar\") is used today to refer to the first cars produced by Benz & Cie between 1885 and 1893; these had three wheels, a single-cylinder four-stroke engine and belt-drive. Benz & Cie used the designation \"Patent-Motorwagen\" for their four-wheel cars until c.1900, but these are known today by their other names, such as Viktoria and Velo. All these cars used the same layout and belt-drive technology for which Benz received patent number DRP37435 in 1886, hence the designation.",
+    "image": null,
+    "credit": null,
+    "wiki": "https://en.wikipedia.org/wiki/Benz_Patent-Motorwagen"
+  },
+  {
+    "id": "oldsmobile-curved-dash",
+    "make": "Oldsmobile",
+    "model": "Curved Dash",
+    "from": 1901,
+    "to": 1907,
+    "country": "USA",
+    "d": "The gasoline-powered Oldsmobile Model R, also known as the Curved Dash Oldsmobile, is credited as being the first mass-produced automobile, meaning that it was built on an assembly line using interchangeable parts. It was introduced by the Oldsmobile company in 1901 and produced through 1907; 425 were produced the first year, 2,500 in 1902, and over 19,000 were built in all. When General Motors assumed operations from Ransom E. Olds on November 12, 1908, GM introduced the Oldsmobile Model 20, which was the 1908 Buick Model 10 with a stretched wheelbase and minor exterior changes.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Ford_Piquette_Avenue_Plant_-_Oldsmobile_Curved_Dash.jpg/960px-Ford_Piquette_Avenue_Plant_-_Oldsmobile_Curved_Dash.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Jackdude101",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_Piquette_Avenue_Plant_-_Oldsmobile_Curved_Dash.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Ford_Piquette_Avenue_Plant_-_Oldsmobile_Curved_Dash.jpg/960px-Ford_Piquette_Avenue_Plant_-_Oldsmobile_Curved_Dash.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Oldsmobile_Curved_Dash"
+  },
+  {
+    "id": "cadillac-model-a",
+    "make": "Cadillac",
+    "model": "Model A",
+    "from": 1903,
+    "to": 1904,
+    "country": "USA",
+    "d": "The first Cadillac automobiles were the 1903 Model built in the last quarter of 1902.  These were 2-seater \"horseless carriages\" powered by a reliable and sturdy 10 hp (7 kW) single-cylinder engine developed by Alanson Partridge Brush and built by Leland and Faulconer Manufacturing Company of Detroit, of which Henry Leland was founder, vice-president and general manager.\nReformed as the Cadillac Automobile Company in August 1902, it began manufacturing the runabouts and named them \"Cadillac\" after the city's founder Antoine Laumet, the self-styled Antoine Laumet de La Mothe, sieur de Cadillac at the re-purposed Detroit Assembly.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Cadillac_Model_A_1902_%286829587611%29.jpg/960px-Cadillac_Model_A_1902_%286829587611%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Iwao from Tokyo, Japan",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cadillac_Model_A_1902_(6829587611).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Cadillac_Model_A_1902_%286829587611%29.jpg/960px-Cadillac_Model_A_1902_%286829587611%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Cadillac_Runabout_and_Tonneau"
+  },
+  {
+    "id": "ford-model-n",
+    "make": "Ford",
+    "model": "Model N",
+    "from": 1906,
+    "to": 1908,
+    "country": "USA",
+    "d": "The Ford Model N is an automobile produced by Ford Motor Company; it was introduced in 1906 as a successor to the Models A and C as the company's inexpensive, entry-level line. It was built at the Ford Piquette Avenue Plant.\nThe Model N diverged from its predecessors in that it was a front-engine car with a four-cylinder engine.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/06_Ford_Model_N_Roadster_%286031905013%29.jpg/960px-06_Ford_Model_N_Roadster_%286031905013%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Greg Gjerdingen from Willmar, USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:06_Ford_Model_N_Roadster_(6031905013).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/06_Ford_Model_N_Roadster_%286031905013%29.jpg/960px-06_Ford_Model_N_Roadster_%286031905013%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ford_Model_N"
+  },
+  {
     "id": "rolls-royce-silver-ghost",
     "make": "Rolls-Royce",
     "model": "Silver Ghost",
@@ -36,6 +102,72 @@
     "wiki": "https://en.wikipedia.org/wiki/Ford_Model_T"
   },
   {
+    "id": "stutz-bearcat",
+    "make": "Stutz",
+    "model": "Bearcat",
+    "from": 1912,
+    "to": 1924,
+    "country": "USA",
+    "d": "The Stutz Bearcat was an American sports car of the pre– and post–World War I period.\nEssentially, the Bearcat was a shorter (120-inch [3,048 mm] wheelbase vs 130-inch [3,302 mm]), lighter version of the standard Stutz passenger car's chassis. It was originally powered by a 390-cubic-inch (6.39 L), 60-horsepower straight-four engine produced by the Wisconsin Motor Manufacturing Company.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Stutz_Bearcat.jpeg/960px-Stutz_Bearcat.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Autoworldmobilia",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:Stutz_Bearcat.jpeg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Stutz_Bearcat.jpeg/960px-Stutz_Bearcat.jpeg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Stutz_Bearcat"
+  },
+  {
+    "id": "packard-twin-six",
+    "make": "Packard",
+    "model": "Twin Six",
+    "from": 1915,
+    "to": 1923,
+    "country": "USA",
+    "d": "The Packard Twelve was a range of V12-engined luxury automobiles built by the Packard Motor Car Company in Detroit, Michigan. The car was built from model year 1916 until 1923, then it returned 1933 until 1939. As a sign of changing times, the majority of second generation Packard Twelves received standard bodywork, with custom bodywork gradually losing favor.",
+    "image": null,
+    "credit": null,
+    "wiki": "https://en.wikipedia.org/wiki/Packard_Twelve"
+  },
+  {
+    "id": "hispano-suiza-h6",
+    "make": "Hispano-Suiza",
+    "model": "H6",
+    "from": 1919,
+    "to": 1933,
+    "country": "France",
+    "d": "The Hispano-Suiza H6 is a luxury car that was produced by Hispano-Suiza, mostly in France. Introduced at the 1919 Paris Motor Show, the H6 was produced until 1933. Roughly 2,350 H6, H6B, and H6C cars were produced in total.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hispano-Suiza_1924_H6B_Million-Guiet_Dual-Cowl_Ph%C3%A6ton.jpg/960px-Hispano-Suiza_1924_H6B_Million-Guiet_Dual-Cowl_Ph%C3%A6ton.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Hispano-Suiza_1924_H6B_Million-Guiet_Dual-Cowl_Ph%C3%A6ton.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Hispano-Suiza_1924_H6B_Million-Guiet_Dual-Cowl_Ph%C3%A6ton.jpg/960px-Hispano-Suiza_1924_H6B_Million-Guiet_Dual-Cowl_Ph%C3%A6ton.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Hispano-Suiza_H6"
+  },
+  {
+    "id": "bentley-3-litre",
+    "make": "Bentley",
+    "model": "3 Litre",
+    "from": 1921,
+    "to": 1929,
+    "country": "UK",
+    "d": "The Bentley 3 Litre was a car chassis manufactured by Bentley. The company's first, it was developed from 1919 and made available to customers' coachbuilders from 1921 to 1929. The Bentley was very much larger than the 1368 cc Bugattis that dominated racing at the time, but double the size of engine and strength compensated for the extra weight.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/1924_Bentley_3-litre_Sports_Tourer_by_Park_Ward.jpg/960px-1924_Bentley_3-litre_Sports_Tourer_by_Park_Ward.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Mr.choppers",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1924_Bentley_3-litre_Sports_Tourer_by_Park_Ward.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/1924_Bentley_3-litre_Sports_Tourer_by_Park_Ward.jpg/960px-1924_Bentley_3-litre_Sports_Tourer_by_Park_Ward.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Bentley_3_Litre"
+  },
+  {
     "id": "austin-seven",
     "make": "Austin",
     "model": "Seven",
@@ -52,6 +184,42 @@
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/1922_Austin_7_--_Shanghai_Automobile_Museum_2012-05-26.JPG/960px-1922_Austin_7_--_Shanghai_Automobile_Museum_2012-05-26.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "wiki": "https://en.wikipedia.org/wiki/Austin_7"
+  },
+  {
+    "id": "lancia-lambda",
+    "make": "Lancia",
+    "model": "Lambda",
+    "from": 1922,
+    "to": 1931,
+    "country": "Italy",
+    "d": "The Lancia Lambda is an innovative automobile produced from 1922 through 1931. It was the first car to feature a load-bearing unitary body, (but without a stressed roof) and it also pioneered the use of an independent suspension (the front sliding pillar with coil springs). Vincenzo Lancia even invented a shock absorber for the car and it had excellent four wheel brakes.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f5/MHV_Lancia_Lambda_1923_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": {
+      "author": "MartinHansV",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:MHV_Lancia_Lambda_1923_01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f5/MHV_Lancia_Lambda_1923_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Lancia_Lambda"
+  },
+  {
+    "id": "bugatti-type-35",
+    "make": "Bugatti",
+    "model": "Type 35",
+    "from": 1924,
+    "to": 1930,
+    "country": "France",
+    "d": "The Bugatti Type 35 is a race car design produced by Bugatti at their Molsheim premises between 1924 and 1930. It was extremely successful when raced by the factory works team. It was also bought by a number of privateer clientele from around the world and pioneered the concept of a race-ready car available for purchase.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Bugatti_35%2C_Bj_1924%2C_M_Nicolosi_-_1976.jpg/960px-Bugatti_35%2C_Bj_1924%2C_M_Nicolosi_-_1976.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Lothar Spurzem",
+      "license": "CC BY-SA 2.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "page": "https://commons.wikimedia.org/wiki/File:Bugatti_35,_Bj_1924,_M_Nicolosi_-_1976.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Bugatti_35%2C_Bj_1924%2C_M_Nicolosi_-_1976.jpg/960px-Bugatti_35%2C_Bj_1924%2C_M_Nicolosi_-_1976.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Bugatti_Type_35"
   },
   {
     "id": "rolls-royce-phantom-i",
@@ -88,6 +256,24 @@
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/1928_Bentley_Saloon_at_Toddington_Railway_Gala%2C_0513_8979023957.jpg/960px-1928_Bentley_Saloon_at_Toddington_Railway_Gala%2C_0513_8979023957.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "wiki": "https://en.wikipedia.org/wiki/Bentley_4%C2%BD_Litre"
+  },
+  {
+    "id": "bugatti-royale",
+    "make": "Bugatti",
+    "model": "Royale",
+    "from": 1927,
+    "to": 1933,
+    "country": "France",
+    "d": "The Bugatti Type 41, better known as the Royale, is a large luxury car built by Bugatti from 1927 to 1933, With a 4.3 m (169.3 in) wheelbase and 6.4 m (21 ft) overall length, it weighs approximately 3,175 kg (7,000 lb) and uses a 12.763 litre (778 cu in) straight-eight engine. For comparison, against the Rolls-Royce Phantom VII (produced from 2003 to 2017), the Royale is about 20% longer, and more than 25% heavier. This makes the Royale one of the largest cars in the world.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/R%C3%A9tromobile_2015_-_Bugatti_Royale_Coup%C3%A9_Napol%C3%A9on_-_1929_-_002.jpg/960px-R%C3%A9tromobile_2015_-_Bugatti_Royale_Coup%C3%A9_Napol%C3%A9on_-_1929_-_002.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Thesupermat",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:R%C3%A9tromobile_2015_-_Bugatti_Royale_Coup%C3%A9_Napol%C3%A9on_-_1929_-_002.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/R%C3%A9tromobile_2015_-_Bugatti_Royale_Coup%C3%A9_Napol%C3%A9on_-_1929_-_002.jpg/960px-R%C3%A9tromobile_2015_-_Bugatti_Royale_Coup%C3%A9_Napol%C3%A9on_-_1929_-_002.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Bugatti_Royale"
   },
   {
     "id": "ford-model-a",
@@ -162,6 +348,24 @@
     "wiki": "https://en.wikipedia.org/wiki/Alfa_Romeo_8C"
   },
   {
+    "id": "hillman-minx",
+    "make": "Hillman",
+    "model": "Minx",
+    "from": 1932,
+    "to": 1970,
+    "country": "UK",
+    "d": "The Hillman Minx was a mid-sized family car that British car maker Hillman produced from 1931 to 1970. There were many versions of the Minx over that period, as well as badge engineered variants sold by Humber, Singer, and Sunbeam.\nFrom the mid-1950s to the mid-1960s, the Minx and its derivatives were the greatest-volume sellers of the \"Audax\" family of cars from Rootes, which also included the Singer Gazelle and Sunbeam Rapier.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Hillman_Minx_Series_V_1592_cc_first_registered_March_1964.JPG/960px-Hillman_Minx_Series_V_1592_cc_first_registered_March_1964.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Charles01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Hillman_Minx_Series_V_1592_cc_first_registered_March_1964.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Hillman_Minx_Series_V_1592_cc_first_registered_March_1964.JPG/960px-Hillman_Minx_Series_V_1592_cc_first_registered_March_1964.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Hillman_Minx"
+  },
+  {
     "id": "bugatti-type-57",
     "make": "Bugatti",
     "model": "Type 57",
@@ -198,6 +402,60 @@
     "wiki": "https://en.wikipedia.org/wiki/Citro%C3%ABn_Traction_Avant"
   },
   {
+    "id": "mercedes-benz-500k",
+    "make": "Mercedes-Benz",
+    "model": "500K",
+    "from": 1934,
+    "to": 1936,
+    "country": "Germany",
+    "d": "The Mercedes-Benz 500K (W29) is a grand touring car built by Mercedes-Benz between 1934 and 1936.  First exhibited at the 1934 Berlin Motor Show. It is distinguished from the 500 sedan by the \"K\" for Kompressor (German for supercharger).",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Paris_-_Bonhams_2014_-_Mercedes-Benz_500K_Cabriolet_A_-_1935_-_002.jpg/960px-Paris_-_Bonhams_2014_-_Mercedes-Benz_500K_Cabriolet_A_-_1935_-_002.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Thesupermat",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Bonhams_2014_-_Mercedes-Benz_500K_Cabriolet_A_-_1935_-_002.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Paris_-_Bonhams_2014_-_Mercedes-Benz_500K_Cabriolet_A_-_1935_-_002.jpg/960px-Paris_-_Bonhams_2014_-_Mercedes-Benz_500K_Cabriolet_A_-_1935_-_002.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Mercedes-Benz_500K"
+  },
+  {
+    "id": "delahaye-135",
+    "make": "Delahaye",
+    "model": "135",
+    "from": 1935,
+    "to": 1954,
+    "country": "France",
+    "d": "The Delahaye 135 is a luxury car manufactured by French automaker Delahaye. Designed by engineer Jean François, it was produced from 1935 until 1954 in many different body styles. A sporting tourer, it was also popular for racing.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/1947_Delahaye_135_MS_-_green_-_8511813627.jpg/960px-1947_Delahaye_135_MS_-_green_-_8511813627.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Rex Gray",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1947_Delahaye_135_MS_-_green_-_8511813627.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/1947_Delahaye_135_MS_-_green_-_8511813627.jpg/960px-1947_Delahaye_135_MS_-_green_-_8511813627.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Delahaye_135"
+  },
+  {
+    "id": "bmw-328",
+    "make": "BMW",
+    "model": "328",
+    "from": 1936,
+    "to": 1940,
+    "country": "Germany",
+    "d": "The BMW 328 is a sports car produced by BMW from 1936 to 1940. Its body design is credited to Peter Szymanowski, who became BMW chief of design after World War II (although technically the car was designed by Fritz Fiedler).",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/1937_BMW_328_in_Green%2C_front_left_%28Greenwich_2025%29.jpg/960px-1937_BMW_328_in_Green%2C_front_left_%28Greenwich_2025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Mr.choppers",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1937_BMW_328_in_Green,_front_left_(Greenwich_2025).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/1937_BMW_328_in_Green%2C_front_left_%28Greenwich_2025%29.jpg/960px-1937_BMW_328_in_Green%2C_front_left_%28Greenwich_2025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/BMW_328"
+  },
+  {
     "id": "cord-810",
     "make": "Cord",
     "model": "810",
@@ -214,6 +472,24 @@
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/1937_Cord_812.JPG/960px-1937_Cord_812.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "wiki": "https://en.wikipedia.org/wiki/Cord_810/812"
+  },
+  {
+    "id": "fiat-500-topolino",
+    "make": "Fiat",
+    "model": "500 Topolino",
+    "from": 1936,
+    "to": 1955,
+    "country": "Italy",
+    "d": "The Fiat 500, commonly known as \"Topolino\" (pronounced [topoˈliːno]), is an Italian city car produced and manufactured by Fiat from 1936 to 1955.\nThe name Topolino is Italian for 'little mouse', and is also the Italian name for Mickey Mouse.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/1936Fiat500CoupeTopolino.jpg/960px-1936Fiat500CoupeTopolino.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "dave_7",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1936Fiat500CoupeTopolino.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/1936Fiat500CoupeTopolino.jpg/960px-1936Fiat500CoupeTopolino.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Fiat_500_%22Topolino%22"
   },
   {
     "id": "mercedes-benz-540k",
@@ -252,6 +528,42 @@
     "wiki": "https://en.wikipedia.org/wiki/Volkswagen_Beetle"
   },
   {
+    "id": "ford-anglia",
+    "make": "Ford",
+    "model": "Anglia",
+    "from": 1939,
+    "to": 1967,
+    "country": "UK",
+    "d": "The Ford Anglia is a small family car that was designed and manufactured by Ford of Britain. It is related to the Ford Prefect and the later Ford Popular. The Anglia name was applied to various models between 1939 and 1967.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/1960_Ford_105E_Anglia%2C_licence_AL-17-79%2C_pic6.JPG/960px-1960_Ford_105E_Anglia%2C_licence_AL-17-79%2C_pic6.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Alf van Beem",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "page": "https://commons.wikimedia.org/wiki/File:1960_Ford_105E_Anglia,_licence_AL-17-79,_pic6.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/1960_Ford_105E_Anglia%2C_licence_AL-17-79%2C_pic6.JPG/960px-1960_Ford_105E_Anglia%2C_licence_AL-17-79%2C_pic6.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ford_Anglia"
+  },
+  {
+    "id": "volkswagen-k-belwagen",
+    "make": "Volkswagen",
+    "model": "Kübelwagen",
+    "from": 1940,
+    "to": 1945,
+    "country": "Germany",
+    "d": "The Volkswagen Type 82 Kübelwagen (), or simply Kübel, contractions of the original German word Kübelsitzwagen (translated: 'bucket-seat car' – but when the contractions are translated literally a back-formation of 'bucket' or 'tub'-car results), is a military light utility vehicle designed by Ferdinand Porsche and built by Volkswagen during World War II for use by the Nazi German military (both Wehrmacht and Waffen-SS). Based heavily on the Volkswagen Beetle, it was prototyped and first deployed in Poland as the Type 62, but following improvements entered full-scale production as the Type 82. Several derivative models, such as the Kommandeurswagen, were also built in dozens to hundreds.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/VW_Kuebelwagen_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": {
+      "author": "Darkone",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:VW_Kuebelwagen_1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f3/VW_Kuebelwagen_1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Volkswagen_K%C3%BCbelwagen"
+  },
+  {
     "id": "willys-mb-jeep",
     "make": "Willys",
     "model": "MB Jeep",
@@ -268,6 +580,96 @@
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Covered_Willy%27s_jeep_Wings_Over_Wine_Country_2007.JPG/960px-Covered_Willy%27s_jeep_Wings_Over_Wine_Country_2007.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "wiki": "https://en.wikipedia.org/wiki/Willys_MB"
+  },
+  {
+    "id": "mg-tc",
+    "make": "MG",
+    "model": "TC",
+    "from": 1945,
+    "to": 1949,
+    "country": "UK",
+    "d": "The MG T-Type is a series of body-on-frame open two-seater sports cars that were produced by MG from 1936 to 1955. Known as the Midget, the series included the TA, TB, TC, TD, and TF models. Although the design was contemporary in the 1930s, it had grown outdated by the 1950s, and was replaced by the all-new MGA in 1955.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/MG_TA_side_20020707.jpg/960px-MG_TA_side_20020707.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Rudolf Stricker",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:MG_TA_side_20020707.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/MG_TA_side_20020707.jpg/960px-MG_TA_side_20020707.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/MG_T-type"
+  },
+  {
+    "id": "cisitalia-202",
+    "make": "Cisitalia",
+    "model": "202",
+    "from": 1947,
+    "to": 1952,
+    "country": "Italy",
+    "d": "Cisitalia was an Italian sports and racing car brand named after \"Compagnia Industriale Sportiva Italia\", a business conglomerate founded in Turin in 1946 by industrialist and sportsman Piero Dusio. One of the most memorable cars manufactured by the company was the 202 GT from 1946, which earned praise for its design and sold about 170 units.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Emblem_Cisitalia.JPG/960px-Emblem_Cisitalia.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Buch-t",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:Emblem_Cisitalia.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Emblem_Cisitalia.JPG/960px-Emblem_Cisitalia.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Cisitalia"
+  },
+  {
+    "id": "citro-n-h-van",
+    "make": "Citroën",
+    "model": "H Van",
+    "from": 1947,
+    "to": 1981,
+    "country": "France",
+    "d": "The Citroën H-Type vans (most commonly the Citroën HY), are a series of panel vans and light trucks, produced by French automaker Citroën for 34 years – from 1947 through 1981. They are notable for their industrial design, using many corrugated metal outer body panels to save material, weight, and costs. Early models of the uniquely styled trucks were just named Type H, but soon they were differentiated by a second letter, using the last four letters in the alphabet – except for the type HP for (flat-bed) pickups.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Citro%C3%ABn_Typ_H_1981_grey_vl_TCE.jpg/960px-Citro%C3%ABn_Typ_H_1981_grey_vl_TCE.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Stahlkocher",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Citro%C3%ABn_Typ_H_1981_grey_vl_TCE.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Citro%C3%ABn_Typ_H_1981_grey_vl_TCE.jpg/960px-Citro%C3%ABn_Typ_H_1981_grey_vl_TCE.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Citro%C3%ABn_H_Van"
+  },
+  {
+    "id": "standard-vanguard",
+    "make": "Standard",
+    "model": "Vanguard",
+    "from": 1947,
+    "to": 1963,
+    "country": "UK",
+    "d": "The Standard Vanguard is a car which was produced by the Standard Motor Company in Coventry, England, from 1947 until 1963.\nThe car, announced in July 1947, was completely new, with no resemblance to previous models. \nDesigned in 1945, it was Standard's first post-World War II car and intended for export around the world.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Standard_Vanguard_before_they_simplified_the_grill_2088_cc_first_reg_October_1951.JPG/960px-Standard_Vanguard_before_they_simplified_the_grill_2088_cc_first_reg_October_1951.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Charles01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Standard_Vanguard_before_they_simplified_the_grill_2088_cc_first_reg_October_1951.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Standard_Vanguard_before_they_simplified_the_grill_2088_cc_first_reg_October_1951.JPG/960px-Standard_Vanguard_before_they_simplified_the_grill_2088_cc_first_reg_October_1951.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Standard_Vanguard"
+  },
+  {
+    "id": "tucker-48",
+    "make": "Tucker",
+    "model": "48",
+    "from": 1947,
+    "to": 1948,
+    "country": "USA",
+    "d": "The Tucker 48, originally named and still commonly referred to as the Tucker Torpedo, was an automobile conceived by Preston Tucker while in Ypsilanti, Michigan, and briefly produced in Chicago, Illinois, in 1948. Only 51 cars were made including their prototype before the company was forced  to cease all operations on March 3, 1949, due to negative publicity initiated by the news media, a Securities and Exchange Commission investigation, and a heavily publicized stock fraud trial (in which the allegations were proven baseless and led to a full acquittal). Tucker suspected that the Big Three automakers and Michigan Senator Homer S. Ferguson had a role in the Tucker Corporation's demise.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/1948_Tucker_Torpedo_%28no._51%29_in_Maroon%2C_front_left.jpg/960px-1948_Tucker_Torpedo_%28no._51%29_in_Maroon%2C_front_left.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Mr.choppers",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1948_Tucker_Torpedo_(no._51)_in_Maroon,_front_left.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/1948_Tucker_Torpedo_%28no._51%29_in_Maroon%2C_front_left.jpg/960px-1948_Tucker_Torpedo_%28no._51%29_in_Maroon%2C_front_left.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Tucker_48"
   },
   {
     "id": "citro-n-2cv",
@@ -342,6 +744,24 @@
     "wiki": "https://en.wikipedia.org/wiki/Morris_Minor"
   },
   {
+    "id": "peugeot-203",
+    "make": "Peugeot",
+    "model": "203",
+    "from": 1948,
+    "to": 1960,
+    "country": "France",
+    "d": "The Peugeot 203 is a small family car which was produced by the French car manufacturer Peugeot between 1948 and 1960.\nThe car was exhibited at the Paris Motor Show in 1947, but by then had already been under development for more than five years. Volume manufacturing was initially hampered by strikes and shortages of materials, but production got under way late in 1948, with buyers taking delivery of 203s from early 1949.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/1950_Peugeot_203_-_fvr-1_%284637117617%29.jpg/960px-1950_Peugeot_203_-_fvr-1_%284637117617%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Rex Gray from Southern California",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1950_Peugeot_203_-_fvr-1_(4637117617).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/1950_Peugeot_203_-_fvr-1_%284637117617%29.jpg/960px-1950_Peugeot_203_-_fvr-1_%284637117617%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Peugeot_203"
+  },
+  {
     "id": "porsche-356",
     "make": "Porsche",
     "model": "356",
@@ -396,6 +816,42 @@
     "wiki": "https://en.wikipedia.org/wiki/Volkswagen_Type_2"
   },
   {
+    "id": "jaguar-c-type",
+    "make": "Jaguar",
+    "model": "C-Type",
+    "from": 1951,
+    "to": 1953,
+    "country": "UK",
+    "d": "The Jaguar C-Type (officially called the Jaguar XK120-C) is a racing sports car built by Jaguar and sold from 1951 to 1953. The \"C\" stands for \"competition\".\nThe car combined the running gear of the contemporary, road-proven XK120, with a lightweight tubular frame designed by Jaguar Chief Engineer William Heynes, and an aerodynamic aluminium body, jointly developed by William Heynes, Bob Knight and later Malcolm Sayer.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Jaguar_C-Type_1953.jpg/960px-Jaguar_C-Type_1953.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "DeFacto",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Jaguar_C-Type_1953.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Jaguar_C-Type_1953.jpg/960px-Jaguar_C-Type_1953.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Jaguar_C-Type"
+  },
+  {
+    "id": "nash-healey-roadster",
+    "make": "Nash-Healey",
+    "model": "Roadster",
+    "from": 1951,
+    "to": 1954,
+    "country": "USA",
+    "d": "The Nash-Healey is a three-seat luxury sports car or grand tourer produced from 1951 to 1954. It was marketed by the Nash-Kelvinator conglomerate in North America as a halo car to promote sales of its Nash Motors division.\nThe car resulted from a joint venture between Nash-Kelvinator and British automaker, the Donald Healey Motor Company.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/1951_Nash-Healey_PR-photo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": {
+      "author": "Unknown authorUnknown author",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:1951_Nash-Healey_PR-photo.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d0/1951_Nash-Healey_PR-photo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Nash-Healey"
+  },
+  {
     "id": "chevrolet-corvette-c1",
     "make": "Chevrolet",
     "model": "Corvette C1",
@@ -414,6 +870,78 @@
     "wiki": "https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C1)"
   },
   {
+    "id": "reliant-regal",
+    "make": "Reliant",
+    "model": "Regal",
+    "from": 1953,
+    "to": 1973,
+    "country": "UK",
+    "d": "The Reliant Regal is a small three-wheeled car and van that was manufactured from 1952 to 1973 by the Reliant Motor Company in Tamworth, England, replacing the earlier Reliant Regent three-wheeled cyclecar van which had its origins in a design bought by Reliant from the Raleigh Bicycle Company. As a three-wheeled vehicle having a lightweight (under 7 cwt, 355.6 kg) construction, under UK law it is considered a \"tricycle\" and can be driven on a full (class A) motorcycle licence. In 1962, with the release of the Reliant Regal 3/25, van and estate versions with a side-hinged rear door were marketed as the Reliant Supervan.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Reliant_Regal_Mk_3_Convertible_%281956%29_-_15821233376.jpg/960px-Reliant_Regal_Mk_3_Convertible_%281956%29_-_15821233376.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "SG2012",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Reliant_Regal_Mk_3_Convertible_(1956)_-_15821233376.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Reliant_Regal_Mk_3_Convertible_%281956%29_-_15821233376.jpg/960px-Reliant_Regal_Mk_3_Convertible_%281956%29_-_15821233376.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Reliant_Regal"
+  },
+  {
+    "id": "sunbeam-alpine",
+    "make": "Sunbeam",
+    "model": "Alpine",
+    "from": 1953,
+    "to": 1968,
+    "country": "UK",
+    "d": "The Sunbeam Alpine is a two-seater sports roadster/drophead coupé that was produced by the Rootes Group from 1953 to 1955, and then 1959 to 1968. The name was then used on a two-door fastback coupé from 1969 to 1975. The original Alpine was launched in 1953 as the first vehicle from Sunbeam-Talbot to bear the Sunbeam name alone since Rootes Group bought Clément-Talbot, and later the moribund Sunbeam from its receiver in 1935.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Alpine_%286068708041%29.jpg/960px-Alpine_%286068708041%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "allen watkin from London, UK",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Alpine_(6068708041).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Alpine_%286068708041%29.jpg/960px-Alpine_%286068708041%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Sunbeam_Alpine"
+  },
+  {
+    "id": "borgward-isabella",
+    "make": "Borgward",
+    "model": "Isabella",
+    "from": 1954,
+    "to": 1962,
+    "country": "Germany",
+    "d": "The Borgward Isabella is an automobile which was manufactured by the Bremen based auto-manufacturer Carl F. W. Borgward GmbH from 1954 to 1962.\nThe Isabella was to have been marketed as the Borgward Hansa 1500 but the Isabella name was used on test vehicles and proved popular with engineering staff and media. The production car was subsequently renamed and only the first few hundred examples were built without Isabella badging.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Borgward_Isabella_%281%29.jpg/960px-Borgward_Isabella_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Reise Reise",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Borgward_Isabella_(1).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Borgward_Isabella_%281%29.jpg/960px-Borgward_Isabella_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Borgward_Isabella"
+  },
+  {
+    "id": "maserati-250f",
+    "make": "Maserati",
+    "model": "250F",
+    "from": 1954,
+    "to": 1960,
+    "country": "Italy",
+    "d": "The Maserati 250F was a racing car made by Maserati of Italy used in '2.5 litre' Formula One racing between January 1954 and November 1960. Twenty-six examples were made.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Maserati_250_F%2C_Bj._1957_%281977-08-14%29_S%C3%BCdkehre.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": {
+      "author": "Spurzem - Lothar Spurzem",
+      "license": "CC BY-SA 2.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "page": "https://commons.wikimedia.org/wiki/File:Maserati_250_F,_Bj._1957_(1977-08-14)_S%C3%BCdkehre.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Maserati_250_F%2C_Bj._1957_%281977-08-14%29_S%C3%BCdkehre.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Maserati_250F"
+  },
+  {
     "id": "mercedes-benz-300-sl",
     "make": "Mercedes-Benz",
     "model": "300 SL",
@@ -430,6 +958,60 @@
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Fox_Classic_Car_Collection%2C_2008_%2802%29.JPG/960px-Fox_Classic_Car_Collection%2C_2008_%2802%29.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "wiki": "https://en.wikipedia.org/wiki/Mercedes-Benz_300_SL"
+  },
+  {
+    "id": "bmw-isetta",
+    "make": "BMW",
+    "model": "Isetta",
+    "from": 1955,
+    "to": 1962,
+    "country": "Germany",
+    "d": "The Isetta (Italian pronunciation: [iˈzetta]) is an Italian-designed microcar initially manufactured in 1953 by the Italian firm Iso SpA, and subsequently built under license in a number of different countries, including Argentina, Spain, Belgium, France, Brazil, Germany, and the United Kingdom. The name Isetta is the Italian diminutive form of Iso, meaning \"little Iso\". Because of its egg shape and bubble-like windows, it became known as a bubble car, a name also given to other similar vehicles.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/BMW_Isetta_-_Flickr_-_mick_-_Lumix.jpg/960px-BMW_Isetta_-_Flickr_-_mick_-_Lumix.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Mick from Northamptonshire, England",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:BMW_Isetta_-_Flickr_-_mick_-_Lumix.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/BMW_Isetta_-_Flickr_-_mick_-_Lumix.jpg/960px-BMW_Isetta_-_Flickr_-_mick_-_Lumix.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Isetta"
+  },
+  {
+    "id": "chevrolet-nomad",
+    "make": "Chevrolet",
+    "model": "Nomad",
+    "from": 1955,
+    "to": 1957,
+    "country": "USA",
+    "d": "Chevrolet Nomad was a nameplate used by Chevrolet in North America from the 1950s to the 1970s, applied largely to station wagons. Three different Nomads were produced as a distinct model line, with Chevrolet subsequently using the name as a trim package.\nMarketed as a halo model of the Chevrolet station wagon line for the Tri-Five series, the Nomad was repackaged as a station wagon counterpart of the Chevrolet Bel Air and Chevrolet Impala from 1958 to 1961.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/1955_Chevrolet_Nomad%2C_front_right_%28Wings-n-Wheels_2023%29.jpg/960px-1955_Chevrolet_Nomad%2C_front_right_%28Wings-n-Wheels_2023%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "MercurySable99",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1955_Chevrolet_Nomad,_front_right_(Wings-n-Wheels_2023).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/1955_Chevrolet_Nomad%2C_front_right_%28Wings-n-Wheels_2023%29.jpg/960px-1955_Chevrolet_Nomad%2C_front_right_%28Wings-n-Wheels_2023%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Chevrolet_Nomad"
+  },
+  {
+    "id": "chrysler-300-letter-series",
+    "make": "Chrysler",
+    "model": "300 Letter Series",
+    "from": 1955,
+    "to": 1965,
+    "country": "USA",
+    "d": "The Chrysler 300 \"letter series\" are high-performance personal luxury cars that were built by Chrysler in the U.S. from 1955 to 1965 and were a sub-model from the Chrysler New Yorker. After the initial year, which was named C-300 for its standard 300 hp (220 kW) 331 cu in (5.4 L) FirePower V8, the 1956 cars were designated 300B. Successive model years were given the next letter of the alphabet as a suffix (skipping \"i\"), reaching the 300L by 1965, after which the model sequence was discontinued while the \"300\" remained. At its introduction it was advertised as \"America's Most Powerful Car\".",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/1964_Chrysler_300_K_%2828972827273%29_%28cropped%29.jpg/960px-1964_Chrysler_300_K_%2828972827273%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Greg Gjerdingen from Willmar, USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1964_Chrysler_300_K_(28972827273)_(cropped).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/1964_Chrysler_300_K_%2828972827273%29_%28cropped%29.jpg/960px-1964_Chrysler_300_K_%2828972827273%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Chrysler_300_letter_series"
   },
   {
     "id": "citro-n-ds",
@@ -468,24 +1050,6 @@
     "wiki": "https://en.wikipedia.org/wiki/Ford_Thunderbird_(first_generation)"
   },
   {
-    "id": "mg-mga",
-    "make": "MG",
-    "model": "MGA",
-    "from": 1955,
-    "to": 1962,
-    "country": "UK",
-    "d": "The MGA is a sports car that was produced by MG from 1955 until 1962.\nThe MGA replaced the MG TF 1500 Midget and represented a complete styling break from MG's earlier sports cars. Announced on 26 September 1955 the car was officially launched at the Frankfurt Motor Show.",
-    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/MG_A_1500_%281956%29_-_15838588582.jpg/960px-MG_A_1500_%281956%29_-_15838588582.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "credit": {
-      "author": "SG2012",
-      "license": "CC BY 2.0",
-      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "page": "https://commons.wikimedia.org/wiki/File:MG_A_1500_(1956)_-_15838588582.jpg",
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/MG_A_1500_%281956%29_-_15838588582.jpg/960px-MG_A_1500_%281956%29_-_15838588582.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    "wiki": "https://en.wikipedia.org/wiki/MG_MGA"
-  },
-  {
     "id": "mercedes-benz-190-sl",
     "make": "Mercedes-Benz",
     "model": "190 SL",
@@ -502,6 +1066,42 @@
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/MB_190_SL_am_2006-07-16_%28ret_kl%29.JPG/960px-MB_190_SL_am_2006-07-16_%28ret_kl%29.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "wiki": "https://en.wikipedia.org/wiki/Mercedes-Benz_190_SL"
+  },
+  {
+    "id": "messerschmitt-kr200",
+    "make": "Messerschmitt",
+    "model": "KR200",
+    "from": 1955,
+    "to": 1964,
+    "country": "Germany",
+    "d": "The Messerschmitt KR200, or Kabinenroller (Cabin Scooter), is a three-wheeled bubble car designed by the aircraft engineer Fritz Fend and produced in the factory of the West German aircraft manufacturer Messerschmitt from 1955 until 1964.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Messerschmitt_Kabinenroller.jpg/960px-Messerschmitt_Kabinenroller.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "",
+      "license": "",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:Messerschmitt_Kabinenroller.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Messerschmitt_Kabinenroller.jpg/960px-Messerschmitt_Kabinenroller.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Messerschmitt_KR200"
+  },
+  {
+    "id": "mg-mga",
+    "make": "MG",
+    "model": "MGA",
+    "from": 1955,
+    "to": 1962,
+    "country": "UK",
+    "d": "The MGA is a sports car that was produced by MG from 1955 until 1962.\nThe MGA replaced the MG TF 1500 Midget and represented a complete styling break from MG's earlier sports cars. Announced on 26 September 1955 the car was officially launched at the Frankfurt Motor Show.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/MG_A_1500_%281956%29_-_15838588582.jpg/960px-MG_A_1500_%281956%29_-_15838588582.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "SG2012",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:MG_A_1500_(1956)_-_15838588582.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/MG_A_1500_%281956%29_-_15838588582.jpg/960px-MG_A_1500_%281956%29_-_15838588582.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/MG_MGA"
   },
   {
     "id": "triumph-tr3",
@@ -540,6 +1140,96 @@
     "wiki": "https://en.wikipedia.org/wiki/BMW_507"
   },
   {
+    "id": "plymouth-fury",
+    "make": "Plymouth",
+    "model": "Fury",
+    "from": 1956,
+    "to": 1978,
+    "country": "USA",
+    "d": "The Plymouth Fury is a model of automobile that was produced by Plymouth from 1955 until 1989. It was introduced for the 1956 model year as a sub-series of the Plymouth Belvedere, becoming a separate series one level above the contemporary Belvedere for 1959. The Fury was a full-size car from 1959 until 1961, then a mid-size car from 1962 until 1964, again, a full-size car from 1965 through 1974, and again, a mid-size car from 1975 through 1978.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/1959_Plymouth_Sport_Fury_photo-14.JPG/960px-1959_Plymouth_Sport_Fury_photo-14.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "AlfvanBeem",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "page": "https://commons.wikimedia.org/wiki/File:1959_Plymouth_Sport_Fury_photo-14.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/1959_Plymouth_Sport_Fury_photo-14.JPG/960px-1959_Plymouth_Sport_Fury_photo-14.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Plymouth_Fury"
+  },
+  {
+    "id": "renault-dauphine",
+    "make": "Renault",
+    "model": "Dauphine",
+    "from": 1956,
+    "to": 1967,
+    "country": "France",
+    "d": "The Renault Dauphine (pronounced [dɔfin]) is a rear-engine, rear-wheel-drive, four-door sedan with three-box styling, marketed to the economy sector by Renault from 1956 to 1967 across a single generation. \nAlong with such cars as the Citroën 2CV, Volkswagen Beetle, Morris Minor, Mini and Fiat 600, the Dauphine pioneered the modern European economy car. More than two million Dauphines were manufactured, many under licence by other manufacturers outside of France.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Renault_Dauphine_7.jpg/960px-Renault_Dauphine_7.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Calreyn88",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Renault_Dauphine_7.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Renault_Dauphine_7.jpg/960px-Renault_Dauphine_7.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Renault_Dauphine"
+  },
+  {
+    "id": "tatra-603",
+    "make": "Tatra",
+    "model": "603",
+    "from": 1956,
+    "to": 1975,
+    "country": "Czechoslovakia",
+    "d": "The Tatra 603 is a large rear-engined luxury car which was produced by the Czechoslovak company Tatra from 1956 to 1975. It was a continuation of the series of Tatra streamlined sedans which began with the Tatra 77. In Socialist Czechoslovakia, only high-ranking party officials and heads of factories were driven in 603s; the car was also exported to a number of other countries.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Tatra_603.jpg/960px-Tatra_603.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Michal Maňas",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tatra_603.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Tatra_603.jpg/960px-Tatra_603.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Tatra_603"
+  },
+  {
+    "id": "volvo-amazon",
+    "make": "Volvo",
+    "model": "Amazon",
+    "from": 1956,
+    "to": 1970,
+    "country": "Sweden",
+    "d": "The Volvo Amazon is a mid-sized car that was manufactured and marketed by Volvo Cars from 1956 to 1970. It was introduced in the United States as the 122S at the 1959 New York International Auto Show.\nThe Amazon shares the wheelbase, tall posture and high H-point seating of its predecessor, the PV444/544, and was offered in two-door sedan, four-door sedan, and five-door wagon body styles — all noted for their ponton styling.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Volvo_122_-_Flickr_-_mick_-_Lumix_%28cropped%29.jpg/960px-Volvo_122_-_Flickr_-_mick_-_Lumix_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Mick from Northamptonshire, England",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Volvo_122_-_Flickr_-_mick_-_Lumix_(cropped).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Volvo_122_-_Flickr_-_mick_-_Lumix_%28cropped%29.jpg/960px-Volvo_122_-_Flickr_-_mick_-_Lumix_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Volvo_Amazon"
+  },
+  {
+    "id": "ferrari-250-testa-rossa",
+    "make": "Ferrari",
+    "model": "250 Testa Rossa",
+    "from": 1957,
+    "to": 1961,
+    "country": "Italy",
+    "d": "The Ferrari 250 Testa Rossa, or 250 TR, is a sports racing car built by Ferrari from 1957 to 1961. It was introduced at the end of the 1957 racing season in response to rule changes that enforced a maximum engine displacement of 3 litres for the 24 Hours of Le Mans and World Sports Car Championship races. The 250 TR was closely related to earlier Ferrari sports cars, sharing many key components with other 250 models and the 500 TR.\nThe 250 TR achieved many racing successes, with variations winning 10 World Sports Car Championship races including the 24 Hours of Le Mans in 1958, 1960, and 1961, the 12 Hours of Sebring in 1958, 1959 and 1961, the Targa Florio in 1958, the 1000 Km Buenos Aires in 1958 and 1960 and the Pescara 4 Hours in 1961.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/1961_Ferrari_250_TR_61_Spyder_Fantuzzi_34_left_2.jpg/960px-1961_Ferrari_250_TR_61_Spyder_Fantuzzi_34_left_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "User:Sfoskett~commonswiki",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:1961_Ferrari_250_TR_61_Spyder_Fantuzzi_34_left_2.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/1961_Ferrari_250_TR_61_Spyder_Fantuzzi_34_left_2.jpg/960px-1961_Ferrari_250_TR_61_Spyder_Fantuzzi_34_left_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ferrari_250_Testa_Rossa"
+  },
+  {
     "id": "fiat-nuova-500",
     "make": "Fiat",
     "model": "Nuova 500",
@@ -556,6 +1246,24 @@
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Fiat_500_%282007%29_02.JPG/960px-Fiat_500_%282007%29_02.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "wiki": "https://en.wikipedia.org/wiki/Fiat_500_(2007)"
+  },
+  {
+    "id": "aston-martin-db4",
+    "make": "Aston Martin",
+    "model": "DB4",
+    "from": 1958,
+    "to": 1963,
+    "country": "UK",
+    "d": "The Aston Martin DB4 is a grand tourer that was produced by Aston Martin from 1958 until 1963. The \"DB\" designation came from Sir David Brown, who built up the company from 1947 onwards.\nTechnically the DB4 was not a development of the DB Mark III it replaced, nor did it evolve into the DB5.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/1960_Aston_Martin_DB4_3.jpg/960px-1960_Aston_Martin_DB4_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Calreyn88",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1960_Aston_Martin_DB4_3.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/1960_Aston_Martin_DB4_3.jpg/960px-1960_Aston_Martin_DB4_3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Aston_Martin_DB4"
   },
   {
     "id": "hindustan-ambassador",
@@ -576,6 +1284,24 @@
     "wiki": "https://en.wikipedia.org/wiki/Hindustan_Ambassador"
   },
   {
+    "id": "subaru-360",
+    "make": "Subaru",
+    "model": "360",
+    "from": 1958,
+    "to": 1971,
+    "country": "Japan",
+    "d": "The Subaru 360 is a rear-engined, two-door city car manufactured and marketed by Subaru from 1958 to 1971.  As the company's first mass-produced automobile, production reached 392,000 over its 12-year model run.\nNoted for its small overall size, 450 kg (1,000 lb) curb weight, monocoque construction, swing axle rear suspension, fiberglass roof panel, and rear-hinged doors, the inexpensive car was designed in response to the Japanese government's light car or Kei car regulations and its proposal for a larger \"national car,\" both intended to help motorize the post WWII Japanese population.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/1958_Subaru_360_01.jpg/960px-1958_Subaru_360_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Mytho88",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1958_Subaru_360_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/1958_Subaru_360_01.jpg/960px-1958_Subaru_360_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Subaru_360"
+  },
+  {
     "id": "austin-healey-3000",
     "make": "Austin-Healey",
     "model": "3000",
@@ -592,6 +1318,24 @@
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Austin_Healey_3000_Mk_II_%281963%29_-_15033636981.jpg/960px-Austin_Healey_3000_Mk_II_%281963%29_-_15033636981.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "wiki": "https://en.wikipedia.org/wiki/Austin-Healey_3000"
+  },
+  {
+    "id": "jaguar-mark-2",
+    "make": "Jaguar",
+    "model": "Mark 2",
+    "from": 1959,
+    "to": 1967,
+    "country": "UK",
+    "d": "The Jaguar Mark 2 is a mid-sized luxury sports saloon built from late 1959 to 1967 by Jaguar in Coventry, England. The previous Jaguar 2.4 Litre and 3.4 Litre models made between 1955 and 1959 are identified as Mark 1 Jaguars.\nThe Mark 2 was a fast and capable saloon in line with Sir William Lyons' 1950s advertising slogan: Grace . . .",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Jaguar_Mk_2_3.4_%281964%29_-_14938353694.jpg/960px-Jaguar_Mk_2_3.4_%281964%29_-_14938353694.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "SG2012",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Jaguar_Mk_2_3.4_(1964)_-_14938353694.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Jaguar_Mk_2_3.4_%281964%29_-_14938353694.jpg/960px-Jaguar_Mk_2_3.4_%281964%29_-_14938353694.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Jaguar_Mark_2"
   },
   {
     "id": "austin-morris-mini",
@@ -630,6 +1374,24 @@
     "wiki": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser_(J40)"
   },
   {
+    "id": "alpine-a110",
+    "make": "Alpine",
+    "model": "A110",
+    "from": 1961,
+    "to": 1977,
+    "country": "France",
+    "d": "The Alpine A110 is a sports car produced by French automobile manufacturer Alpine from 1963 to 1977. The car was styled as a \"berlinetta\", which in the post-WWII era refers to a small enclosed two-door berline, better-known as a coupé. The Alpine A110 succeeded the earlier A108.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Renault_Alpine_A_110_%28Sp%29.JPG/960px-Renault_Alpine_A_110_%28Sp%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Lothar Spurzem",
+      "license": "CC BY-SA 2.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "page": "https://commons.wikimedia.org/wiki/File:Renault_Alpine_A_110_(Sp).JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Renault_Alpine_A_110_%28Sp%29.JPG/960px-Renault_Alpine_A_110_%28Sp%29.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Alpine_A110"
+  },
+  {
     "id": "jaguar-e-type",
     "make": "Jaguar",
     "model": "E-Type",
@@ -646,6 +1408,24 @@
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Jaguar_E-Type_Series_1_3.8_Litre_1961.jpg/960px-Jaguar_E-Type_Series_1_3.8_Litre_1961.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "wiki": "https://en.wikipedia.org/wiki/Jaguar_E-Type"
+  },
+  {
+    "id": "lincoln-continental",
+    "make": "Lincoln",
+    "model": "Continental",
+    "from": 1961,
+    "to": 1969,
+    "country": "USA",
+    "d": "The Lincoln Continental is a series of mid-sized and full-sized luxury cars produced between 1939 and 2020 by Lincoln, a division of the American automaker Ford. The model line was introduced following the construction of a personal vehicle for Edsel Ford, who commissioned a coachbuilt 1939 Lincoln-Zephyr convertible, developed as a vacation vehicle to attract potential Lincoln buyers. In what would give the model line its name, the exterior was designed with European \"continental\" styling elements, including a rear-mounted spare tire.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/2019_Lincoln_Continental_%22Select%22%2C_front_10.29.19.jpg/960px-2019_Lincoln_Continental_%22Select%22%2C_front_10.29.19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Kevauto",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:2019_Lincoln_Continental_%22Select%22,_front_10.29.19.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/2019_Lincoln_Continental_%22Select%22%2C_front_10.29.19.jpg/960px-2019_Lincoln_Continental_%22Select%22%2C_front_10.29.19.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Lincoln_Continental"
   },
   {
     "id": "volvo-p1800",
@@ -720,6 +1500,24 @@
     "wiki": "https://en.wikipedia.org/wiki/AC_Cobra"
   },
   {
+    "id": "studebaker-avanti",
+    "make": "Studebaker",
+    "model": "Avanti",
+    "from": 1962,
+    "to": 1963,
+    "country": "USA",
+    "d": "The Studebaker Avanti is a personal luxury coupe manufactured and marketed by Studebaker Corporation between June 1962 and December 1963. A halo car for the maker, it was marketed as \"America's only four-passenger high-performance personal car.\"\nDescribed as \"one of the more significant milestones of the postwar industry\", the Raymond Loewy-designed car offered safety features and high-speed performance. Called \"the fastest production car in the world\" upon its introduction, a modified Avanti reached over 170 mph (270 km/h) with its supercharged 289-cubic-inch (4,740 cm3) R3 engine at the Bonneville Salt Flats.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/1963_Studebaker_Avanti_gold_at_Concord_University.JPG/960px-1963_Studebaker_Avanti_gold_at_Concord_University.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "CZmarlin — Christopher Ziemnowicz, releases all rights but a photo credit would be appreciated if this image is used anywhere other than Wikipedia. Please leave a note at Wikipedia here. Thank you!",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:1963_Studebaker_Avanti_gold_at_Concord_University.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/1963_Studebaker_Avanti_gold_at_Concord_University.JPG/960px-1963_Studebaker_Avanti_gold_at_Concord_University.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Studebaker_Avanti"
+  },
+  {
     "id": "triumph-spitfire",
     "make": "Triumph",
     "model": "Spitfire",
@@ -774,6 +1572,42 @@
     "wiki": "https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C2)"
   },
   {
+    "id": "lancia-fulvia",
+    "make": "Lancia",
+    "model": "Fulvia",
+    "from": 1963,
+    "to": 1976,
+    "country": "Italy",
+    "d": "The Lancia Fulvia (Tipo 818) is a car produced by Lancia between 1963 and 1976. Named after the Via Fulvia, a Roman road leading from Tortona to Turin, it was introduced at the Geneva Motor Show in 1963 and manufactured in three variants: Berlina 4-door saloon, 2-door Coupé, and Sport, an alternative fastback coupé designed and built by Zagato on the Coupé floorpan.\nFulvias are noted for their role in motorsport history, including a 1972 win of the International Rally Championship.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Lancia_Motor_Club_AGM_2011_DSC_4294_-_Flickr_-_tonylanciabeta_%28cropped%29.jpg/960px-Lancia_Motor_Club_AGM_2011_DSC_4294_-_Flickr_-_tonylanciabeta_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Tony Harrison from Farnborough, UK",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Lancia_Motor_Club_AGM_2011_DSC_4294_-_Flickr_-_tonylanciabeta_(cropped).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Lancia_Motor_Club_AGM_2011_DSC_4294_-_Flickr_-_tonylanciabeta_%28cropped%29.jpg/960px-Lancia_Motor_Club_AGM_2011_DSC_4294_-_Flickr_-_tonylanciabeta_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Lancia_Fulvia"
+  },
+  {
+    "id": "mercedes-benz-600",
+    "make": "Mercedes-Benz",
+    "model": "600",
+    "from": 1963,
+    "to": 1981,
+    "country": "Germany",
+    "d": "The Mercedes-Benz 600 (W100) is a single-generation of full-size ultra-luxury limousines, made by Daimler-Benz from 1963 through 1981. Nicknamed the Grosser (Grand/Large) Mercedes after its 1930s counterpart, the Mercedes 770. It was positioned well above the subsequent 300-series in price, amenities, and status.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Mercedes-Benz_600_vl_silver_TCE.jpg/960px-Mercedes-Benz_600_vl_silver_TCE.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Stahlkocher",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_600_vl_silver_TCE.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Mercedes-Benz_600_vl_silver_TCE.jpg/960px-Mercedes-Benz_600_vl_silver_TCE.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Mercedes-Benz_600"
+  },
+  {
     "id": "mercedes-benz-230-sl-pagoda",
     "make": "Mercedes-Benz",
     "model": "230 SL Pagoda",
@@ -790,6 +1624,24 @@
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/1969_Mercedes_280_SL_Pagoda.jpg/960px-1969_Mercedes_280_SL_Pagoda.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "wiki": "https://en.wikipedia.org/wiki/Mercedes-Benz_W113"
+  },
+  {
+    "id": "ferrari-275",
+    "make": "Ferrari",
+    "model": "275",
+    "from": 1964,
+    "to": 1968,
+    "country": "Italy",
+    "d": "The Ferrari 275 is a series of front-engined V12-powered grand touring automobiles with two-seater coupé and spider bodies produced by Ferrari between 1964 and 1968. The first 275 series cars were powered by a 3.3 L (3286 cc) overhead camshaft Colombo 60° V12 engine producing 260–320 hp (190–240 kW). An updated 275 GTB/4 was introduced in 1966, with a revised four overhead camshaft engine producing 300 hp (220 kW).",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/1966_Ferrari_275_GTB_sn_08549%2C_front_left_%28Greenwich_2019%29.jpg/960px-1966_Ferrari_275_GTB_sn_08549%2C_front_left_%28Greenwich_2019%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Mr.choppers",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1966_Ferrari_275_GTB_sn_08549,_front_left_(Greenwich_2019).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/1966_Ferrari_275_GTB_sn_08549%2C_front_left_%28Greenwich_2019%29.jpg/960px-1966_Ferrari_275_GTB_sn_08549%2C_front_left_%28Greenwich_2019%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ferrari_275"
   },
   {
     "id": "ford-gt40",
@@ -900,6 +1752,24 @@
     "wiki": "https://en.wikipedia.org/wiki/Rolls-Royce_Silver_Shadow"
   },
   {
+    "id": "toyota-sports-800",
+    "make": "Toyota",
+    "model": "Sports 800",
+    "from": 1965,
+    "to": 1969,
+    "country": "Japan",
+    "d": "The Toyota Sports 800 (Japanese: トヨタ・スポーツ800, Hepburn: Toyota Supōtsu Hachihyaku) is Toyota's first production sports car. The prototype for the Sports 800, called the Publica Sports, debuted at the 1962 Tokyo Auto Show, featuring a space age sliding canopy and utilizing the 21 kW (28 hp; 29 PS) powertrain of the Publica 700, a Japanese market economy car. The Toyota Sports 800 is affectionately called the \"Yota-Hachi\" (ヨタハチ), which is a Japanese short form for \"Toyota 8\".",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Toyota_Sports_800_at_History_Garage.jpg/960px-Toyota_Sports_800_at_History_Garage.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Alex Brogan",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Toyota_Sports_800_at_History_Garage.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Toyota_Sports_800_at_History_Garage.jpg/960px-Toyota_Sports_800_at_History_Garage.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Toyota_Sports_800"
+  },
+  {
     "id": "alfa-romeo-spider",
     "make": "Alfa Romeo",
     "model": "Spider",
@@ -988,6 +1858,24 @@
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Hillman_Hunter_with_second_of_the_four_fronts_1725cc_first_registered_October_1967.JPG/960px-Hillman_Hunter_with_second_of_the_four_fronts_1725cc_first_registered_October_1967.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "wiki": "https://en.wikipedia.org/wiki/Rootes_Arrow"
+  },
+  {
+    "id": "honda-s800",
+    "make": "Honda",
+    "model": "S800",
+    "from": 1966,
+    "to": 1970,
+    "country": "Japan",
+    "d": "The S800 is a sports car from Honda. Introduced at the 1965 Tokyo Motor Show, the S800 replaced the successful Honda S600 as the company's image car. With a redline of 8,500 rpm, it is one of the highest-revving sports cars produced for street use.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/1966_Honda_S800.jpg/960px-1966_Honda_S800.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "TTTNIS",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "page": "https://commons.wikimedia.org/wiki/File:1966_Honda_S800.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/1966_Honda_S800.jpg/960px-1966_Honda_S800.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Honda_S800"
   },
   {
     "id": "lamborghini-miura",
