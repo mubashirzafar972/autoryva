@@ -30,7 +30,7 @@ async function api(base, params, tries = 3) {
 }
 const chunk = (a, n) => { const o = []; for (let i = 0; i < a.length; i += n) o.push(a.slice(i, i + n)); return o; };
 const strip = h => String(h || '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/\s+/g, ' ').trim();
-const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const slug = s => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 // Wikipedia: intro text, main image and page link for up to 20 titles per request
 async function wikiPages(titles) {
@@ -161,6 +161,8 @@ async function buildData() {
     fs.mkdirSync(pub, { recursive: true });
     fs.writeFileSync(path.join(pub, 'cars.json'), JSON.stringify(cars));
   } catch (e) { console.warn('  Could not copy data to public/data:', e.message); }
+  // Build one page per car, the credits page, sitemap.xml and robots.txt
+  try { require('./generate').generate(cars); } catch (e) { console.warn('  Could not generate pages:', e.message); }
   console.log(`Saved ${cars.length} of ${seed.length} cars to data/cars.json (${cars.filter(c => c.image).length} with photos)`);
   const noPhoto = cars.filter(c => !c.image).map(c => `${c.make} ${c.model}`);
   if (noPhoto.length) console.log('Cars without a photo:', noPhoto.join(', '), '\n  Fix: add "imageFile":"File name from Wikimedia Commons.jpg" to that car in seed-cars.json');

@@ -2,18 +2,45 @@
 // Tries the Node server first, then the static data file (used on free static hosting)
 let cars=[];
 const API_URLS=["/api/cars","data/cars.json"];
+const addId=c=>c.id?c:{...c,id:(c.make+" "+c.model).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"")};
 async function loadCars(){
   for(const u of API_URLS){
     try{
       const r=await fetch(u); if(!r.ok) continue;
-      const list=await r.json(); if(Array.isArray(list)&&list.length) return list;
+      const list=await r.json(); if(Array.isArray(list)&&list.length) return list.map(addId);
     }catch(e){}
   }
-  return CARS;
+  return CARS.map(addId);
 }
 const esc=t=>String(t==null?"":t).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
 function imgFail(el){const d=document.createElement("div");d.innerHTML=art("#62752F");el.replaceWith(d.firstChild)}
 function thumb(c){return c.image?`<img src="${esc(c.image)}" alt="${esc(c.make+" "+c.model)}" loading="lazy" referrerpolicy="no-referrer" onerror="imgFail(this)">`:art(c.c||"#62752F")}
+function attachSuggest(input){
+  const box=document.createElement("ul");box.className="sug";box.setAttribute("role","listbox");box.hidden=true;
+  input.parentNode.style.position="relative";input.parentNode.appendChild(box);
+  let items=[],idx=-1;
+  const go=c=>{location.href="/cars/"+c.id+".html"};
+  const nm=c=>(c.make+" "+c.model).toLowerCase();
+  function paint(){box.innerHTML=items.map((c,i)=>`<li role="option" data-i="${i}" class="${i==idx?"on":""}">${esc(c.make+" "+c.model)}<small>${c.from}–${c.to}</small></li>`).join("")}
+  function update(){
+    const q=input.value.trim().toLowerCase();idx=-1;
+    if(!q){box.hidden=true;return}
+    items=cars.filter(c=>nm(c).includes(q)).sort((a,b)=>(nm(b).startsWith(q)-nm(a).startsWith(q))||a.from-b.from).slice(0,6);
+    if(!items.length){box.hidden=true;return}
+    box.style.left=input.offsetLeft+"px";box.style.top=(input.offsetTop+input.offsetHeight+4)+"px";box.style.width=input.offsetWidth+"px";
+    paint();box.hidden=false;
+  }
+  input.addEventListener("input",update);
+  input.addEventListener("keydown",e=>{
+    if(box.hidden) return;
+    if(e.key=="ArrowDown"){e.preventDefault();idx=(idx+1)%items.length;paint()}
+    else if(e.key=="ArrowUp"){e.preventDefault();idx=(idx-1+items.length)%items.length;paint()}
+    else if(e.key=="Enter"&&idx>=0){e.preventDefault();go(items[idx])}
+    else if(e.key=="Escape"){box.hidden=true}
+  });
+  box.addEventListener("pointerdown",e=>{const li=e.target.closest("li");if(li){e.preventDefault();go(items[+li.dataset.i])}});
+  input.addEventListener("blur",()=>setTimeout(()=>{box.hidden=true},150));
+}
 function usePhotoSlides(){
   const withImg=cars.filter(c=>c.image).sort((a,b)=>a.from-b.from);
   if(withImg.length<3) return;
@@ -28,7 +55,7 @@ function initCars(){
 usePhotoSlides();
 const withImg=cars.filter(c=>c.image);
   const pick=(withImg.length>=6?withImg:cars).slice(0,6);
-  $("#feat").innerHTML=pick.map(c=>`<button class="card" onclick="show(${cars.indexOf(c)})">${thumb(c)}<div class="b"><span class="yr">${c.from}–${c.to}</span><h3 style="margin-top:8px">${esc(c.make)} ${esc(c.model)}</h3><div class="meta">${esc(c.country)}</div></div></button>`).join("");
+  $("#feat").innerHTML=pick.map(c=>`<a class="card" href="/cars/${esc(c.id)}.html">${thumb(c)}<div class="b"><span class="yr">${c.from}–${c.to}</span><h3 style="margin-top:8px">${esc(c.make)} ${esc(c.model)}</h3><div class="meta">${esc(c.country)}</div></div></a>`).join("");
 [...new Set(cars.map(c=>c.country))].sort().forEach(x=>$("#country").insertAdjacentHTML("beforeend",`<option>${x}</option>`));
   renderDecades();
   render();
@@ -63,12 +90,13 @@ function render(){
 const q=$("#q").value.trim().toLowerCase();
 const list=cars.filter(c=>(dec=="all"||(c.from<+dec+10&&c.to>=+dec))&&(ctry=="all"||c.country==ctry)&&(c.make+" "+c.model).toLowerCase().includes(q));
 $("#count").textContent=list.length+" cars";
-$("#grid").innerHTML=list.length?list.map(c=>{const i=cars.indexOf(c);return `<button class="card" onclick="show(${i})">${thumb(c)}<div class="b"><span class="yr">${c.from}–${c.to}</span><h3 style="margin-top:8px">${esc(c.make)} ${esc(c.model)}</h3><div class="meta">${esc(c.country)}</div><p>${esc((c.d||"").slice(0,90))}…</p></div></button>`}).join(""):`<div class="empty">No cars match. Try another era or clear the search.</div>`;
+$("#grid").innerHTML=list.length?list.map(c=>{const i=cars.indexOf(c);return `<a class="card" href="/cars/${esc(c.id)}.html">${thumb(c)}<div class="b"><span class="yr">${c.from}–${c.to}</span><h3 style="margin-top:8px">${esc(c.make)} ${esc(c.model)}</h3><div class="meta">${esc(c.country)}</div><p>${esc((c.d||"").slice(0,90))}…</p></div></a>`}).join(""):`<div class="empty">No cars match. Try another era or clear the search.</div>`;
 }
 function show(i){const c=cars[i];const cr=c.credit?`<p class="credit">Photo: ${esc(c.credit.author||"Wikimedia Commons")}${c.credit.license?", "+(c.credit.licenseUrl?`<a href="${esc(c.credit.licenseUrl)}" target="_blank" rel="noopener">${esc(c.credit.license)}</a>`:esc(c.credit.license)):""}${c.credit.page?` (<a href="${esc(c.credit.page)}" target="_blank" rel="noopener">source</a>)`:""}</p>`:"";const wk=c.wiki?`<p><a href="${esc(c.wiki)}" target="_blank" rel="noopener">Read more on Wikipedia</a></p>`:"";$("#dbody").innerHTML=`${thumb(c)}<div class="b"><h2>${esc(c.make)} ${esc(c.model)}</h2><p style="color:var(--mute)">${esc(c.d)}</p><dl><dt>Make</dt><dd>${esc(c.make)}</dd><dt>Model</dt><dd>${esc(c.model)}</dd><dt>Produced</dt><dd>${c.from} to ${c.to}</dd><dt>Country</dt><dd>${esc(c.country)}</dd></dl>${wk}${cr}<button class="btn" onclick="dlg.close()">Close</button></div>`;dlg.showModal()}
 document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");dec=b.dataset.d;render()});
 $("#country").onchange=e=>{ctry=e.target.value;render()};
 $("#q").oninput=render;
+attachSuggest($("#q"));attachSuggest($("#hq"));
 function route(){const h=location.hash.replace("#/","")||"home";const p=["home","gallery","about"].includes(h)?h:"home";document.querySelectorAll(".page").forEach(x=>x.hidden=x.id!="p-"+p);document.querySelectorAll("nav a[data-p]").forEach(a=>a.classList.toggle("on",a.dataset.p==p));scrollTo(0,0)}
 addEventListener("hashchange",()=>{route();showLoad(1100)});route();
 $("#hs").onsubmit=e=>{e.preventDefault();$("#q").value=$("#hq").value;render();location.hash="#/gallery"};

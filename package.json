@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "fetch": "node fetch-wiki.js",
-    "build": "node build.js"
+    "build": "node generate.js",
+    "add": "node add-cars.js"
   },
   "engines": {
     "node": ">=18"
