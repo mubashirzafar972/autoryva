@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const cfg = require('./site.config');
-const { carPage, creditsPage, seoTags } = require('./templates');
+const { carPage, creditsPage, thanksPage, seoTags } = require('./templates');
 
 function generate(cars) {
   const site = String(process.env.SITE_URL || cfg.url).replace(/\/$/, '');
@@ -21,6 +21,7 @@ function generate(cars) {
   fs.mkdirSync(dir, { recursive: true });
   for (const c of cars) fs.writeFileSync(path.join(dir, c.id + '.html'), carPage(c, cars, site, nav, cfg));
   fs.writeFileSync(path.join(pub, 'credits.html'), creditsPage(cars, site, nav, cfg));
+  fs.writeFileSync(path.join(pub, 'thanks.html'), thanksPage(site, nav, cfg));
 
   const today = new Date().toISOString().slice(0, 10);
   const urls = ['/', '/credits.html', ...cars.map(c => `/cars/${c.id}.html`)];

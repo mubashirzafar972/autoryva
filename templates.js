@@ -96,4 +96,14 @@ function creditsPage(all, site, nav, cfg) {
   return layout({ title: 'Credits and licenses | Autoryva', desc: 'Where the Autoryva car descriptions and photos come from, with photographer names and licenses.', url: `${site}/credits.html`, image: `${site}/assets/og-image.png`, body, nav, cfg });
 }
 
-module.exports = { carPage, creditsPage, seoTags, esc };
+function thanksPage(site, nav, cfg) {
+  const body = `<main class="wrap car-page" style="text-align:center;padding:80px 20px">
+<h1>Thank you!</h1>
+<p class="lead" style="margin:12px auto 24px">Your message was sent. We read every suggestion and use it to make Autoryva better.</p>
+<a class="btn" href="/" style="display:inline-block;text-decoration:none">Back to Autoryva</a>
+</main>`;
+  return layout({ title: 'Thank you | Autoryva', desc: 'Thank you for your feedback.', url: `${site}/thanks.html`, image: `${site}/assets/og-image.png`, body, nav, cfg })
+    .replace('</head>', '<meta name="robots" content="noindex">\n</head>');
+}
+
+module.exports = { carPage, creditsPage, thanksPage, seoTags, esc };

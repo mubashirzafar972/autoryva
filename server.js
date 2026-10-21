@@ -20,6 +20,8 @@ app.get('/api/cars', async (req, res) => {
 });
 
 // The website itself
+// On your computer the feedback form cannot save messages; just show the thank-you page
+app.post('/thanks.html', (req, res) => res.redirect(303, '/thanks.html'));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(PORT, () => {

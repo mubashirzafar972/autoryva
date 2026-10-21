@@ -57,6 +57,23 @@
 <div class="page" id="p-about" hidden><section style="padding:64px 0"><div class="wrap">
 <h1 style="font-size:2.2rem;margin-bottom:12px">About Autoryva</h1>
 <p style="max-width:62ch;color:var(--mute);margin:0">A growing collection of classic cars. Each photo is credited to its photographer and license, and each entry lists make, model and years of production.</p>
+<div class="fb">
+<h2>Feedback and suggestions</h2>
+<p class="fbhint">Found a mistake, want a car added, or have an idea for the website? Tell us.</p>
+<form name="feedback" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+<input type="hidden" name="form-name" value="feedback">
+<p hidden><label>Do not fill this in: <input name="bot-field"></label></p>
+<label for="fb-type">What is it about?</label>
+<select id="fb-type" name="type"><option>Suggestion</option><option>Car request</option><option>Mistake report</option><option>Other</option></select>
+<label for="fb-msg">Your message</label>
+<textarea id="fb-msg" name="message" rows="5" required placeholder="Write here..."></textarea>
+<label for="fb-name">Name (optional)</label>
+<input id="fb-name" name="name" type="text" autocomplete="name">
+<label for="fb-mail">Email (optional, only if you want a reply)</label>
+<input id="fb-mail" name="email" type="email" autocomplete="email">
+<button class="btn" type="submit">Send</button>
+</form>
+</div>
 </div></section>
 </div><footer><div class="wrap">Autoryva. Car text and photos come from Wikipedia and Wikimedia Commons. The license and photographer are listed on each car. <a href="/credits.html">Credits and licenses</a></div></footer>
 
