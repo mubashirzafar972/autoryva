@@ -74,8 +74,8 @@ hero.addEventListener("touchstart",e=>{sx=e.touches[0].clientX},{passive:true});
 hero.addEventListener("touchend",e=>{const d=e.changedTouches[0].clientX-sx;if(Math.abs(d)>50)go(si+(d<0?1:-1))});
 function setDecade(d){dec=d;document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed",x.dataset.d==d));render();location.hash="#/gallery"}
 function renderDecades(){
-  const tint=["#2F5D50","#5B2E2A","#2E4A7A","#B08D57","#C2662D"];
-  $("#decs").innerHTML=["1920","1930","1950","1960","1970"].map((d,i)=>{
+  const tint=["#2F5D50","#5B2E2A","#4F5F25","#2E4A7A","#B08D57","#C2662D","#5C4B7A","#7A3B2B","#3F6B7A"];
+  $("#decs").innerHTML=["1920","1930","1940","1950","1960","1970","1980","1990","2000"].map((d,i)=>{
     const inEra=cars.filter(c=>c.from<+d+10&&c.to>=+d);
     const c=inEra.find(x=>x.image);
     return `<button class="card" onclick="setDecade('${d}')">${c?thumb(c):art(tint[i])}<div class="b"><h3>${d}s</h3><div class="meta">${inEra.length?inEra.length+" cars":"View cars"}</div></div></button>`;

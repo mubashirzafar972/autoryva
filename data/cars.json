@@ -6,9 +6,15 @@
     "from": 1885,
     "to": 1893,
     "country": "Germany",
-    "d": "Benz Patent-Motorwagen (\"patent motorcar\") is used today to refer to the first cars produced by Benz & Cie between 1885 and 1893; these had three wheels, a single-cylinder four-stroke engine and belt-drive. Benz & Cie used the designation \"Patent-Motorwagen\" for their four-wheel cars until c.1900, but these are known today by their other names, such as Viktoria and Velo. All these cars used the same layout and belt-drive technology for which Benz received patent number DRP37435 in 1886, hence the designation.",
-    "image": null,
-    "credit": null,
+    "d": "The Benz Patent-Motorwagen (\"patent motorcar\") was the world's first practical production automobile, built by Benz & Cie between 1885 and 1893. Featuring three wheels, a single-cylinder four-stroke engine and belt-drive, Benz & Cie used the designation \"Patent-Motorwagen\" for their four-wheel cars until c.1900, but these are known today by their other names, such as Viktoria and Velo. All these cars used the same layout and belt-drive technology for which Benz received patent number DRP37435 in 1886, hence the designation.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/1885Benz.jpg/960px-1885Benz.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Supplied by Benz to William Worby Beaumont and used in his book Motor Vehicles and Motors (1900)",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:1885Benz.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/1885Benz.jpg/960px-1885Benz.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
     "wiki": "https://en.wikipedia.org/wiki/Benz_Patent-Motorwagen"
   },
   {
@@ -108,7 +114,7 @@
     "from": 1912,
     "to": 1924,
     "country": "USA",
-    "d": "The Stutz Bearcat was an American sports car of the pre– and post–World War I period.\nEssentially, the Bearcat was a shorter (120-inch [3,048 mm] wheelbase vs 130-inch [3,302 mm]), lighter version of the standard Stutz passenger car's chassis. It was originally powered by a 390-cubic-inch (6.39 L), 60-horsepower straight-four engine produced by the Wisconsin Motor Manufacturing Company.",
+    "d": "The Stutz Bearcat was an American sports car of the pre– and post–World War I period.\n\nEssentially, the Bearcat was a shorter (120-inch [3,048 mm] wheelbase vs 130-inch [3,302 mm]), lighter version of the standard Stutz passenger car's chassis. It was originally powered by a 390-cubic-inch (6.39 L), 60-horsepower straight-four engine produced by the Wisconsin Motor Manufacturing Company.",
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Stutz_Bearcat.jpeg/960px-Stutz_Bearcat.jpeg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "credit": {
       "author": "Autoworldmobilia",
@@ -384,7 +390,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Bugatti_Type_57"
   },
   {
-    "id": "citro-n-traction-avant",
+    "id": "citroen-traction-avant",
     "make": "Citroën",
     "model": "Traction Avant",
     "from": 1934,
@@ -546,7 +552,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Ford_Anglia"
   },
   {
-    "id": "volkswagen-k-belwagen",
+    "id": "volkswagen-kubelwagen",
     "make": "Volkswagen",
     "model": "Kübelwagen",
     "from": 1940,
@@ -618,7 +624,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Cisitalia"
   },
   {
-    "id": "citro-n-h-van",
+    "id": "citroen-h-van",
     "make": "Citroën",
     "model": "H Van",
     "from": 1947,
@@ -672,7 +678,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Tucker_48"
   },
   {
-    "id": "citro-n-2cv",
+    "id": "citroen-2cv",
     "make": "Citroën",
     "model": "2CV",
     "from": 1948,
@@ -861,9 +867,9 @@
     "d": "The Chevrolet Corvette (C1) is the first generation of the Corvette sports car produced by Chevrolet. It was introduced late in the 1953 model year and produced through 1962. This generation is commonly called the \"solid-axle\" generation, as an independent rear suspension did not appear until the 1963 Sting Ray.",
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg/960px-Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "credit": {
-      "author": "",
-      "license": "",
-      "licenseUrl": "",
+      "author": "Morio",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg",
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg/960px-Chevrolet_Corvette_C1_front-right_2016_Shanghai_Auto_Museum.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
@@ -1014,7 +1020,7 @@
     "wiki": "https://en.wikipedia.org/wiki/Chrysler_300_letter_series"
   },
   {
-    "id": "citro-n-ds",
+    "id": "citroen-ds",
     "make": "Citroën",
     "model": "DS",
     "from": 1955,
@@ -1077,9 +1083,9 @@
     "d": "The Messerschmitt KR200, or Kabinenroller (Cabin Scooter), is a three-wheeled bubble car designed by the aircraft engineer Fritz Fend and produced in the factory of the West German aircraft manufacturer Messerschmitt from 1955 until 1964.",
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Messerschmitt_Kabinenroller.jpg/960px-Messerschmitt_Kabinenroller.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "credit": {
-      "author": "",
-      "license": "",
-      "licenseUrl": "",
+      "author": "Stefan Kühn",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
       "page": "https://commons.wikimedia.org/wiki/File:Messerschmitt_Kabinenroller.jpg",
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Messerschmitt_Kabinenroller.jpg/960px-Messerschmitt_Kabinenroller.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
@@ -1275,9 +1281,9 @@
     "d": "The Hindustan Ambassador is an automobile manufactured by Indian manufacturer Hindustan Motors from 1957 to 2014. It was based on the Morris Oxford Series III by Morris Motors.\nOn 11 February 2017, Hindustan Motors executed an agreement with Groupe PSA for the sale of the Ambassador brand, including the trademarks, for a consideration of ₹80 crore (US$8.3 million).",
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/The_Classic_Ambassador_on_an_early_sunrise.jpg/960px-The_Classic_Ambassador_on_an_early_sunrise.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "credit": {
-      "author": "",
-      "license": "",
-      "licenseUrl": "",
+      "author": "Jan J George",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
       "page": "https://commons.wikimedia.org/wiki/File:The_Classic_Ambassador_on_an_early_sunrise.jpg",
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/The_Classic_Ambassador_on_an_early_sunrise.jpg/960px-The_Classic_Ambassador_on_an_early_sunrise.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
@@ -1320,6 +1326,24 @@
     "wiki": "https://en.wikipedia.org/wiki/Austin-Healey_3000"
   },
   {
+    "id": "chevrolet-el-camino",
+    "make": "Chevrolet",
+    "model": "El Camino",
+    "from": 1959,
+    "to": 1987,
+    "country": "USA",
+    "d": "The Chevrolet El Camino is a coupé utility vehicle that was produced by Chevrolet in 1959 and 1960, and from 1964 to 1987. Unlike a standard pickup truck, the El Camino was adapted from the standard two-door Chevrolet station wagon platform and integrated the cab and cargo bed into the body.\nIntroduced in the 1959 model year in response to the success of the Ford Ranchero coupé utility, its first run, based on the Biscayne's B-body, lasted only two years.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/1969_Chevrolet_El_Camino_SS%2C_front_5.19.19.jpg/960px-1969_Chevrolet_El_Camino_SS%2C_front_5.19.19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Kevauto",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1969_Chevrolet_El_Camino_SS,_front_5.19.19.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/1969_Chevrolet_El_Camino_SS%2C_front_5.19.19.jpg/960px-1969_Chevrolet_El_Camino_SS%2C_front_5.19.19.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Chevrolet_El_Camino"
+  },
+  {
     "id": "jaguar-mark-2",
     "make": "Jaguar",
     "model": "Mark 2",
@@ -1354,6 +1378,24 @@
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Morris_Mini-Minor_1959_%28621_AOK%29.jpg/960px-Morris_Mini-Minor_1959_%28621_AOK%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "wiki": "https://en.wikipedia.org/wiki/Mini"
+  },
+  {
+    "id": "dodge-dart",
+    "make": "Dodge",
+    "model": "Dart",
+    "from": 1960,
+    "to": 1976,
+    "country": "USA",
+    "d": "The Dodge Dart is a line of passenger cars produced by Dodge from the 1959 to 1976 model years in North America, with production extended to later years in various other markets. \nThe production Dodge Dart was introduced as a lower-priced full-size model in 1960 and 1961, but became a mid-size car for one model year for 1962, and was then reduced to a compact for two generations, from 1963 to 1976.\nChrysler had first used 'Dart' name plates on two Italian styled show cars, in 1956 and 1957, before it became a Dodge model name.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/1966_Dodge_Dart_GT_%2835578852214%29_%28cropped%29.jpg/960px-1966_Dodge_Dart_GT_%2835578852214%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Greg Gjerdingen from Willmar, USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1966_Dodge_Dart_GT_(35578852214)_(cropped).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/1966_Dodge_Dart_GT_%2835578852214%29_%28cropped%29.jpg/960px-1966_Dodge_Dart_GT_%2835578852214%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Dodge_Dart"
   },
   {
     "id": "toyota-land-cruiser-j40",
@@ -1452,7 +1494,7 @@
     "from": 1962,
     "to": 1964,
     "country": "Italy",
-    "d": "The Ferrari 250 GTO is a V12 front engine grand tourer produced by Ferrari from 1962 to 1964 for homologation into the FIA's Group 3 Grand Touring Car category that required at least 100 made within 12 months, including 250 GT SWB that had been homologated in June 1960.\nThe \"GTO\", which stands for Gran Turismo Omologato, Italian for \"Grand Touring Homologated\"., was powered by Ferrari's Tipo 168/62 Colombo V12 engine with 250 cubic centimeters displacement of each of its cylinders, thus 3 liter in total.\nAs Ferrari had convinced the rule makers of FIA/CSI (and the Le Mans ACO) to count in earlier 250 GT SWB cars, just 36 GTOs were manufactured between 1962 and 1964.",
+    "d": "The Ferrari 250 GTO is a V12 front engine grand tourer produced by Ferrari from 1962 to 1964 for homologation into the FIA's Group 3 Grand Touring Car category that required at least 100 made within 12 months, including 250 GT SWB that had been homologated in June 1960.\nThe \"GTO\", which stands for Gran Turismo Omologato, Italian for \"Grand Touring Homologated\", was powered by Ferrari's Tipo 168/62 Colombo V12 engine with 250 cubic centimeters displacement of each of its cylinders, thus 3 liter in total.\nAs Ferrari had convinced the rule makers of FIA/CSI (and the Le Mans ACO) to count in earlier 250 GT SWB cars, just 36 GTOs were manufactured between 1962 and 1964.",
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/1962_Ferrari_250_GTO_SP25.jpg/960px-1962_Ferrari_250_GTO_SP25.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "credit": {
       "author": "MrWalkr",
@@ -1725,13 +1767,31 @@
     "d": "The original Porsche 911 (pronounced nine eleven, German: Neunelfer) is a sports car made by Porsche AG of Stuttgart, Germany. A prototype of the design was shown to the public in autumn 1963. Production began in September 1964 and continued through 1989.",
     "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Porsche_911E_ca_1969.jpg/960px-Porsche_911E_ca_1969.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "credit": {
-      "author": "",
-      "license": "",
-      "licenseUrl": "",
+      "author": "Charles01",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
       "page": "https://commons.wikimedia.org/wiki/File:Porsche_911E_ca_1969.jpg",
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Porsche_911E_ca_1969.jpg/960px-Porsche_911E_ca_1969.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "wiki": "https://en.wikipedia.org/wiki/Porsche_911_(classic)"
+  },
+  {
+    "id": "chevrolet-caprice",
+    "make": "Chevrolet",
+    "model": "Caprice",
+    "from": 1965,
+    "to": 1996,
+    "country": "USA",
+    "d": "The Chevrolet Caprice is a full-size car produced by Chevrolet in North America from 1965 through the 1996 model years. All versions of the full-size Chevrolet models reached their peak in 1965, with over a million units sold. It was the most popular car in the U.S. in the 1960s and early 1970s, during a time when its production also included the Biscayne, Bel Air, and Impala trims.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/2011_Chevrolet_Caprice_PPV_--_12-06-2010_front.jpg/960px-2011_Chevrolet_Caprice_PPV_--_12-06-2010_front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:2011_Chevrolet_Caprice_PPV_--_12-06-2010_front.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/2011_Chevrolet_Caprice_PPV_--_12-06-2010_front.jpg/960px-2011_Chevrolet_Caprice_PPV_--_12-06-2010_front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Chevrolet_Caprice"
   },
   {
     "id": "rolls-royce-silver-shadow",
@@ -1842,6 +1902,24 @@
     "wiki": "https://en.wikipedia.org/wiki/Dodge_Charger_(1966)"
   },
   {
+    "id": "ford-bronco",
+    "make": "Ford",
+    "model": "Bronco",
+    "from": 1966,
+    "to": 1977,
+    "country": "USA",
+    "d": "The Ford Bronco is a model line of SUVs manufactured and marketed by Ford. The first SUV model developed by the company, five generations of the Bronco were sold from the 1966 to 1996 model years. A sixth generation of the model line was introduced for the 2021 model year.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Ford_Bronco_%286th_generation%29_Outer_Banks_1X7A0384.jpg/960px-Ford_Bronco_%286th_generation%29_Outer_Banks_1X7A0384.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_Bronco_(6th_generation)_Outer_Banks_1X7A0384.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Ford_Bronco_%286th_generation%29_Outer_Banks_1X7A0384.jpg/960px-Ford_Bronco_%286th_generation%29_Outer_Banks_1X7A0384.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ford_Bronco"
+  },
+  {
     "id": "hillman-hunter",
     "make": "Hillman",
     "model": "Hunter",
@@ -1932,6 +2010,24 @@
     "wiki": "https://en.wikipedia.org/wiki/Toyota_2000GT"
   },
   {
+    "id": "chevrolet-corvette-c3",
+    "make": "Chevrolet",
+    "model": "Corvette C3",
+    "from": 1968,
+    "to": 1982,
+    "country": "USA",
+    "d": "The Chevrolet Corvette (C3) is the third generation of the Corvette sports car that was produced from 1967 until 1982 by Chevrolet for the 1968 to 1982 model years. Engines and chassis components were mostly carried over from the previous generation, but the body and interior were new. It set new sales records with 53,807 produced for the 1979 model year.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Chevrolet_Corvette_C3_Stingray_IMG_3199.jpg/960px-Chevrolet_Corvette_C3_Stingray_IMG_3199.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C3_Stingray_IMG_3199.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Chevrolet_Corvette_C3_Stingray_IMG_3199.jpg/960px-Chevrolet_Corvette_C3_Stingray_IMG_3199.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C3)"
+  },
+  {
     "id": "plymouth-road-runner",
     "make": "Plymouth",
     "model": "Road Runner",
@@ -1950,6 +2046,24 @@
     "wiki": "https://en.wikipedia.org/wiki/Plymouth_Road_Runner"
   },
   {
+    "id": "chevrolet-k5-blazer",
+    "make": "Chevrolet",
+    "model": "K5 Blazer",
+    "from": 1969,
+    "to": 1994,
+    "country": "USA",
+    "d": "The Chevrolet K5 Blazer is a full-size sport-utility vehicle (SUV) that was marketed by Chevrolet from the 1969 to 1994 model years.  A variant of the C/K truck line, the K5 Blazer is a shortened version of the half-ton pickup line.  For its first two generations, the model line was a half-cab pickup truck fitted with a removable rear top (effectively making it a three-door station wagon); the final generation was fitted with permanent rear bodywork.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/1979_Chevrolet_K5_Blazer_Cheyenne.jpg/960px-1979_Chevrolet_K5_Blazer_Cheyenne.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "79k5driver",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1979_Chevrolet_K5_Blazer_Cheyenne.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/1979_Chevrolet_K5_Blazer_Cheyenne.jpg/960px-1979_Chevrolet_K5_Blazer_Cheyenne.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Chevrolet_K5_Blazer"
+  },
+  {
     "id": "datsun-240z",
     "make": "Datsun",
     "model": "240Z",
@@ -1966,6 +2080,42 @@
       "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/1970-1973_Nissan_Fairlady_Z.jpg/960px-1970-1973_Nissan_Fairlady_Z.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     "wiki": "https://en.wikipedia.org/wiki/Nissan_Fairlady_Z_(S30)"
+  },
+  {
+    "id": "chevrolet-camaro-2nd-gen",
+    "make": "Chevrolet",
+    "model": "Camaro 2nd Gen",
+    "from": 1970,
+    "to": 1981,
+    "country": "USA",
+    "d": "The second-generation Chevrolet Camaro is an American pony car produced by Chevrolet from 1970 through the 1981 model years. It was introduced in the spring of 1970. Build information for model 123-12487 was released to the assembly plants in February of that same year.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/1970_Chevrolet_Camaro_%2827755093943%29_%28cropped%29.jpg/960px-1970_Chevrolet_Camaro_%2827755093943%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Greg Gjerdingen from Willmar, USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1970_Chevrolet_Camaro_(27755093943)_(cropped).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/1970_Chevrolet_Camaro_%2827755093943%29_%28cropped%29.jpg/960px-1970_Chevrolet_Camaro_%2827755093943%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Chevrolet_Camaro_(second_generation)"
+  },
+  {
+    "id": "chevrolet-monte-carlo",
+    "make": "Chevrolet",
+    "model": "Monte Carlo",
+    "from": 1970,
+    "to": 2007,
+    "country": "USA",
+    "d": "The Chevrolet Monte Carlo is a two-door coupe that was manufactured and marketed by the Chevrolet division of General Motors. Deriving its name from the city in Monaco, the Monte Carlo was marketed as the first personal luxury car of the Chevrolet brand. Introduced for the 1970 model year, the model line was produced across six generations through the 2007 model year, with a hiatus from 1989 until 1994.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2006_Chevrolet_Monte_Carlo_LS_--_NHTSA.jpg/960px-2006_Chevrolet_Monte_Carlo_LS_--_NHTSA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "U.S. National Highway Traffic Safety Administration",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:2006_Chevrolet_Monte_Carlo_LS_--_NHTSA.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/2006_Chevrolet_Monte_Carlo_LS_--_NHTSA.jpg/960px-2006_Chevrolet_Monte_Carlo_LS_--_NHTSA.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Chevrolet_Monte_Carlo"
   },
   {
     "id": "dodge-challenger",
@@ -2004,6 +2154,42 @@
     "wiki": "https://en.wikipedia.org/wiki/Honda_Civic_(first_generation)"
   },
   {
+    "id": "mercedes-benz-s-class-w116",
+    "make": "Mercedes-Benz",
+    "model": "S-Class W116",
+    "from": 1972,
+    "to": 1980,
+    "country": "Germany",
+    "d": "The Mercedes-Benz W 116 is a series of flagship luxury sedans produced from September 1972 until 1980. The W 116 automobiles were the first Mercedes-Benz models to be officially called S-Class, although some earlier sedan models had already been designated unofficially with the letter S for \"special class\" (German: \"Sonderklasse\"). The W 116 was selected as European Car of the Year in 1974.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Mercedes-Benz_W116_front_20080424.jpg/960px-Mercedes-Benz_W116_front_20080424.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Rudolf Stricker",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_W116_front_20080424.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Mercedes-Benz_W116_front_20080424.jpg/960px-Mercedes-Benz_W116_front_20080424.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Mercedes-Benz_W116"
+  },
+  {
+    "id": "dodge-ramcharger",
+    "make": "Dodge",
+    "model": "Ramcharger",
+    "from": 1974,
+    "to": 1993,
+    "country": "USA",
+    "d": "The Dodge Ramcharger is a large sport utility vehicle built by Dodge from 1974 to 1993, based on a shortened-wheelbase version of the Dodge D series/Ram pickup chassis. A Plymouth version, named the Plymouth Trail Duster, offered from 1974 to 1981, was Plymouth's only SUV.\nThe Ramcharger was mostly produced as a two-door, 4×4 vehicle, although a two-wheel-drive version was available. As a full-size SUV, it competed with the Chevrolet K5 Blazer and the 1978–1996 Ford Bronco.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Dodge_Ramcharger_--_07-20-2009.jpg/960px-Dodge_Ramcharger_--_07-20-2009.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:Dodge_Ramcharger_--_07-20-2009.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Dodge_Ramcharger_--_07-20-2009.jpg/960px-Dodge_Ramcharger_--_07-20-2009.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Dodge_Ramcharger"
+  },
+  {
     "id": "lamborghini-countach",
     "make": "Lamborghini",
     "model": "Countach",
@@ -2040,6 +2226,366 @@
     "wiki": "https://en.wikipedia.org/wiki/Volkswagen_Golf_Mk1"
   },
   {
+    "id": "volvo-240",
+    "make": "Volvo",
+    "model": "240",
+    "from": 1974,
+    "to": 1993,
+    "country": "Sweden",
+    "d": "The Volvo 200 Series (designated internally as the 240 and 260 models) was a range of mid-size cars manufactured by Swedish automaker Volvo Cars from 1974 to 1993. Designed by Jan Wilsgaard, the series was developed from the Volvo 140 Series and incorporated safety innovations from Volvo's VESC experimental safety vehicle program.\nThe 200 Series was produced in sedan, station wagon, and limited convertible body styles.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/1988-1991_Volvo_240_GL_station_wagon_%282011-06-15%29_01.jpg/960px-1988-1991_Volvo_240_GL_station_wagon_%282011-06-15%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "OSX",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:1988-1991_Volvo_240_GL_station_wagon_(2011-06-15)_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/1988-1991_Volvo_240_GL_station_wagon_%282011-06-15%29_01.jpg/960px-1988-1991_Volvo_240_GL_station_wagon_%282011-06-15%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Volvo_200_Series"
+  },
+  {
+    "id": "ferrari-308-gtb-gts",
+    "make": "Ferrari",
+    "model": "308 GTB/GTS",
+    "from": 1975,
+    "to": 1985,
+    "country": "Italy",
+    "d": "The Ferrari 308 GTB berlinetta and targa-topped 308 GTS are V8 mid-engined, two-seater sports cars manufactured by the Italian company Ferrari from 1975 until 1985. The 308 replaced the Dino 246 GT and GTS in 1975 and was updated as the 328 GTB/GTS in 1985. The similar 208 GTB and GTS were equipped with a smaller, initially naturally aspirated and later turbocharged, two-litre engine, and were sold mainly in Italy.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Ferrari_308_GTB_IMG_3510.jpg/960px-Ferrari_308_GTB_IMG_3510.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferrari_308_GTB_IMG_3510.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Ferrari_308_GTB_IMG_3510.jpg/960px-Ferrari_308_GTB_IMG_3510.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ferrari_308_GTB/GTS"
+  },
+  {
+    "id": "bmw-6-series-e24",
+    "make": "BMW",
+    "model": "6 Series E24",
+    "from": 1976,
+    "to": 1989,
+    "country": "Germany",
+    "d": "The BMW E24 is the first generation of BMW 6 Series range of grand tourer cars, which was produced from January 1976 to 1989 and replaced the BMW E9 coupé.\n\nThe E24 was produced solely in a 2-door coupé body style. All models used petrol straight-six engines, with the majority (aside from the M635CSi/M6 model) using a version of the BMW M30 engine family.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/BMW_633_CSi_Front-Side.JPG/960px-BMW_633_CSi_Front-Side.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "galant",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "page": "https://commons.wikimedia.org/wiki/File:BMW_633_CSi_Front-Side.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/BMW_633_CSi_Front-Side.JPG/960px-BMW_633_CSi_Front-Side.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/BMW_6_Series_(E24)"
+  },
+  {
+    "id": "mercedes-benz-w123",
+    "make": "Mercedes-Benz",
+    "model": "W123",
+    "from": 1976,
+    "to": 1986,
+    "country": "Germany",
+    "d": "The Mercedes-Benz W123 is a range of executive cars produced by German manufacturer Mercedes-Benz from November 1975 to January 1986. The W123 models surpassed their predecessor, the Mercedes-Benz W114, as the most successful Mercedes-Benz, selling 2.7 million units before production ended in the autumn of 1985 for the saloon/sedan versions and January 1986 for coupés and estates/station wagons.\nFollowing a slow production build-up during the first year, customers who placed their orders faced a lengthy waiting period of nine to twelve months.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/1984_Mercedes-Benz_280E_Sedan_%28cropped%29.jpg/960px-1984_Mercedes-Benz_280E_Sedan_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Verdict09",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "page": "https://commons.wikimedia.org/wiki/File:1984_Mercedes-Benz_280E_Sedan_(cropped).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/1984_Mercedes-Benz_280E_Sedan_%28cropped%29.jpg/960px-1984_Mercedes-Benz_280E_Sedan_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Mercedes-Benz_W123"
+  },
+  {
+    "id": "porsche-928",
+    "make": "Porsche",
+    "model": "928",
+    "from": 1977,
+    "to": 1995,
+    "country": "Germany",
+    "d": "The Porsche 928 is a grand touring car which was manufactured and marketed by Porsche AG of Germany from 1977 to 1995 across a single generation with an intermediate facelift. It is a 2+2 coupé with a rear hatchback. The 928 has a water-cooled engine which is mounted in the front and drives the rear wheels.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/1991_Porsche_928_S4_LC24.jpg/960px-1991_Porsche_928_S4_LC24.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "MrWalkr",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1991_Porsche_928_S4_LC24.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/1991_Porsche_928_S4_LC24.jpg/960px-1991_Porsche_928_S4_LC24.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Porsche_928"
+  },
+  {
+    "id": "bmw-m1",
+    "make": "BMW",
+    "model": "M1",
+    "from": 1978,
+    "to": 1981,
+    "country": "Germany",
+    "d": "The BMW M1 (model code E26) is a mid-engined sports car produced by German automotive manufacturer BMW from 1978 until 1981.\nIn the late 1970s, Italian automobile manufacturer Lamborghini entered into an agreement with BMW to build a production racing car in sufficient quantity for homologation, but conflicts arose that prompted BMW to produce the car themselves.  The resulting car was sold to the public, from 1978 until 1981, as the BMW M1.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/BMW_M1%2C_front_right_%28Brooklyn%29.jpg/960px-BMW_M1%2C_front_right_%28Brooklyn%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Mr.choppers",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:BMW_M1,_front_right_(Brooklyn).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/BMW_M1%2C_front_right_%28Brooklyn%29.jpg/960px-BMW_M1%2C_front_right_%28Brooklyn%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/BMW_M1"
+  },
+  {
+    "id": "mazda-rx-7",
+    "make": "Mazda",
+    "model": "RX-7",
+    "from": 1978,
+    "to": 2002,
+    "country": "Japan",
+    "d": "The Mazda RX-7 is a sports car which was manufactured and marketed by Mazda from 1978 to 2002 across three generations. It has a front mid engine, rear-wheel-drive layout and uses a compact and lightweight Wankel rotary engine.\nThe first-generation RX-7, codenamed SA (early) and FB (late), is a two-seater coupé with a rear hatchback.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/1994_Mazda_RX-7_R2_in_Vintage_Red%2C_front_left_%28Lime_Rock%29.jpg/960px-1994_Mazda_RX-7_R2_in_Vintage_Red%2C_front_left_%28Lime_Rock%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Mr.choppers",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1994_Mazda_RX-7_R2_in_Vintage_Red,_front_left_(Lime_Rock).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/1994_Mazda_RX-7_R2_in_Vintage_Red%2C_front_left_%28Lime_Rock%29.jpg/960px-1994_Mazda_RX-7_R2_in_Vintage_Red%2C_front_left_%28Lime_Rock%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Mazda_RX-7"
+  },
+  {
+    "id": "ford-mustang-fox-body",
+    "make": "Ford",
+    "model": "Mustang Fox Body",
+    "from": 1979,
+    "to": 1993,
+    "country": "USA",
+    "d": "The third-generation Mustang is a pony car manufactured and marketed by Ford from 1979–1993, using the company's Fox platform and colloquially called the Fox body Mustang. During its third generation, the Mustang evolved through several sub-models, trim levels, and drivetrain combinations during its production and seemed destined for replacement with a front-wheel drive Mazda platform. Company executives were swayed by consumer opinion and the rear-wheel drive Mustang stayed in production, while the front-wheel drive version was renamed the Ford Probe.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/1990_Ford_Mustang_GT_5.0_Hatchback_in_Ultra_Blue%2C_front_right.jpg/960px-1990_Ford_Mustang_GT_5.0_Hatchback_in_Ultra_Blue%2C_front_right.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Mr.choppers",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1990_Ford_Mustang_GT_5.0_Hatchback_in_Ultra_Blue,_front_right.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/1990_Ford_Mustang_GT_5.0_Hatchback_in_Ultra_Blue%2C_front_right.jpg/960px-1990_Ford_Mustang_GT_5.0_Hatchback_in_Ultra_Blue%2C_front_right.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ford_Mustang_(third_generation)"
+  },
+  {
+    "id": "mercedes-benz-s-class-w126",
+    "make": "Mercedes-Benz",
+    "model": "S-Class W126",
+    "from": 1979,
+    "to": 1991,
+    "country": "Germany",
+    "d": "The Mercedes-Benz W126 is a series of passenger cars made by Daimler-Benz AG. It was marketed as the second generation of the Mercedes-Benz S-Class, and manufactured in sedan/saloon (1979–1991) as well as coupé (1981–1990) models, succeeding the company's W116 range. Mercedes-Benz introduced the 2-door C126 coupé model, marketed as the SEC, in September 1981. This generation was the first S-Class to have separate chassis codes for standard and long wheelbases (W126 and V126) and for coupé (C126).",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/1987-1991_Mercedes-Benz_300_SEL_%28V_126%29_sedan_%282010-04-03%29_02.jpg/960px-1987-1991_Mercedes-Benz_300_SEL_%28V_126%29_sedan_%282010-04-03%29_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "OSX",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:1987-1991_Mercedes-Benz_300_SEL_(V_126)_sedan_(2010-04-03)_02.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/1987-1991_Mercedes-Benz_300_SEL_%28V_126%29_sedan_%282010-04-03%29_02.jpg/960px-1987-1991_Mercedes-Benz_300_SEL_%28V_126%29_sedan_%282010-04-03%29_02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Mercedes-Benz_W126"
+  },
+  {
+    "id": "suzuki-alto",
+    "make": "Suzuki",
+    "model": "Alto",
+    "from": 1979,
+    "to": 2024,
+    "country": "Japan",
+    "d": "The Suzuki Alto (Japanese: スズキ・アルト, Hepburn: Suzuki Aruto) is a kei car produced by Suzuki since 1979. The model, currently in its ninth generation, was first introduced in 1979 and has been built in many countries worldwide. The Alto originated as a commercial vehicle derivative of the Fronte, but over time the Alto nameplate gained in popularity and by 1988 it replaced the Fronte name completely.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/1994-1997_Suzuki_Alto.jpg/960px-1994-1997_Suzuki_Alto.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "TTTNIS",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:1994-1997_Suzuki_Alto.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/1994-1997_Suzuki_Alto.jpg/960px-1994-1997_Suzuki_Alto.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Suzuki_Alto"
+  },
+  {
+    "id": "audi-quattro",
+    "make": "Audi",
+    "model": "Quattro",
+    "from": 1980,
+    "to": 1991,
+    "country": "Germany",
+    "d": "The Audi Quattro is a road and rally car, produced by the German automobile manufacturer Audi, part of the Volkswagen Group. It was first shown at the 1980 Geneva Motor Show on 3 March. Production continued until 1991.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/1985_Audi_Quattro.jpg/960px-1985_Audi_Quattro.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Calreyn88",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "page": "https://commons.wikimedia.org/wiki/File:1985_Audi_Quattro.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/1985_Audi_Quattro.jpg/960px-1985_Audi_Quattro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Audi_Quattro"
+  },
+  {
+    "id": "rolls-royce-silver-spirit",
+    "make": "Rolls-Royce",
+    "model": "Silver Spirit",
+    "from": 1980,
+    "to": 1998,
+    "country": "UK",
+    "d": "The Rolls-Royce Silver Spirit is a full-size luxury car produced by Rolls-Royce Motors, in Crewe, England, from 1980 to 1997. It was the first model in the SZ series. The Silver Spur is a long-wheelbase version of the Silver Spirit, produced from 1980 to 2000.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/YDV699_1982_Rolls_Royce_Silver_Spirit_Iii.jpg/960px-YDV699_1982_Rolls_Royce_Silver_Spirit_Iii.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "kitmasterbloke",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:YDV699_1982_Rolls_Royce_Silver_Spirit_Iii.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/YDV699_1982_Rolls_Royce_Silver_Spirit_Iii.jpg/960px-YDV699_1982_Rolls_Royce_Silver_Spirit_Iii.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Rolls-Royce_Silver_Spirit"
+  },
+  {
+    "id": "delorean-dmc-12",
+    "make": "DeLorean",
+    "model": "DMC-12",
+    "from": 1981,
+    "to": 1983,
+    "country": "USA",
+    "d": "The DMC DeLorean is a rear-engine, two-seat sports car manufactured and marketed by John DeLorean's DeLorean Motor Company (DMC) for the American market from 1981 until 1983—ultimately the only car brought to market by the fledgling company. The DeLorean is sometimes referred to by its internal pre-production designation, DMC-12, although this was not used in sales or marketing materials for the production model.\nDesigned by Giorgetto Giugiaro, the DeLorean is noted for its gull-wing doors and brushed stainless-steel outer body panels, as well as its relatively modest performance.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Delorean_DMC-12_side.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "credit": {
+      "author": "Kevin Abato, www.grenexmedia.com",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Delorean_DMC-12_side.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Delorean_DMC-12_side.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/DMC_DeLorean"
+  },
+  {
+    "id": "bmw-3-series-e30",
+    "make": "BMW",
+    "model": "3 Series E30",
+    "from": 1982,
+    "to": 1994,
+    "country": "Germany",
+    "d": "The BMW E30 is the second generation of BMW 3 Series, which was produced from 1982 to 1994 and replaced the E21 3 Series. The model range included 2-door saloon (sometimes referred to as a coupé) and convertible body styles, as well as being the first 3 Series to be produced in 4-door saloon and wagon/estate body styles. It was powered by four-cylinder petrol, six-cylinder petrol and six-cylinder diesel engines, the latter a first for the 3 Series.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/BMW_E30_in_silver_%28facelift%29%2C_front_left_2024-08-18.jpg/960px-BMW_E30_in_silver_%28facelift%29%2C_front_left_2024-08-18.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "File:BMW E30 2024-08-18 5D413732.jpg: Johannes Maximilian derivative work: Mr.choppers",
+      "license": "GFDL 1.2",
+      "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+      "page": "https://commons.wikimedia.org/wiki/File:BMW_E30_in_silver_(facelift),_front_left_2024-08-18.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/BMW_E30_in_silver_%28facelift%29%2C_front_left_2024-08-18.jpg/960px-BMW_E30_in_silver_%28facelift%29%2C_front_left_2024-08-18.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/BMW_3_Series_(E30)"
+  },
+  {
+    "id": "ford-sierra",
+    "make": "Ford",
+    "model": "Sierra",
+    "from": 1982,
+    "to": 1993,
+    "country": "UK",
+    "d": "The Ford Sierra is a mid-size/large family car manufactured and marketed by Ford of Europe from 1982–1993. It was launched as a three-door or five-door hatchback or a five-door estate car, with a car-derived van variant added in 1984 and the four-door Sierra Sapphire saloon car introduced in 1987 when the range was facelifted. The engine is mounted in the front with rear-wheel drive on most models and four-wheel drive on certain models.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Ford_Sierra_CLX_1988_zweit%C3%BCrig.jpg/960px-Ford_Sierra_CLX_1988_zweit%C3%BCrig.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Norbert Schnitzler",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_Sierra_CLX_1988_zweit%C3%BCrig.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Ford_Sierra_CLX_1988_zweit%C3%BCrig.jpg/960px-Ford_Sierra_CLX_1988_zweit%C3%BCrig.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ford_Sierra"
+  },
+  {
+    "id": "mercedes-benz-190-e-w201",
+    "make": "Mercedes-Benz",
+    "model": "190 E W201",
+    "from": 1982,
+    "to": 1993,
+    "country": "Germany",
+    "d": "The Mercedes-Benz W201 is the internal designation for the Mercedes 190 series sedans, a range of front-engine, rear drive, five passenger, four-door sedans manufactured over a single generation, from 1983 to 1993 as the company's first compact class automobile.\nDesigned by Bruno Sacco, head of styling at Mercedes-Benz from 1975 to 1999, the W201 debuted at the 1982 Paris Motor Show. Manufactured in both Bremen and Sindelfingen, Germany, production reached 1,879,629 over its eleven-year model life.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/1993_190E_2.3.jpg/960px-1993_190E_2.3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Bretbmorgan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1993_190E_2.3.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/1993_190E_2.3.jpg/960px-1993_190E_2.3.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Mercedes-Benz_W201"
+  },
+  {
+    "id": "pontiac-firebird-3rd-gen",
+    "make": "Pontiac",
+    "model": "Firebird 3rd Gen",
+    "from": 1982,
+    "to": 1992,
+    "country": "USA",
+    "d": "The third generation Pontiac Firebird was introduced in late 1981 by Pontiac alongside its corporate cousin, the Chevrolet Camaro for the 1982 model year. These were also the first Firebirds with factory fuel injection, four-speed automatic transmissions, five-speed manual transmissions, four-cylinder engines, 16-inch wheels, and hatchback bodies.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/89_Firebird_Formula_WS6.png/960px-89_Firebird_Formula_WS6.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Ndezonia",
+      "license": "CC0",
+      "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "page": "https://commons.wikimedia.org/wiki/File:89_Firebird_Formula_WS6.png",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/89_Firebird_Formula_WS6.png/960px-89_Firebird_Formula_WS6.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Pontiac_Firebird_(third_generation)"
+  },
+  {
+    "id": "porsche-944",
+    "make": "Porsche",
+    "model": "944",
+    "from": 1982,
+    "to": 1991,
+    "country": "Germany",
+    "d": "The Porsche 944 is a two-door  sports car that was manufactured and marketed by Porsche from 1982 until 1991. A front-engine, rear-wheel drive model based on the platform of the 924, the 944 was available in coupé or cabriolet body styles, with either naturally aspirated or turbocharged engines. With over 163,000 cars produced, the 944 was the most successful sports car in Porsche's history until the introductions of the Boxster and 997 Carrera.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/1986_944_Turbo.jpg/960px-1986_944_Turbo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Daniel J. Leivick",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1986_944_Turbo.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/1986_944_Turbo.jpg/960px-1986_944_Turbo.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Porsche_944"
+  },
+  {
+    "id": "chevrolet-corvette-c4",
+    "make": "Chevrolet",
+    "model": "Corvette C4",
+    "from": 1983,
+    "to": 1996,
+    "country": "USA",
+    "d": "The Chevrolet Corvette (C4) is the fourth generation of the Corvette sports car, manufactured and marketed by the Chevrolet division of General Motors for 1984–1996 model years. While no 1983 Corvettes were sold to the public, GM built 43 pre-production pilot cars for engineering and testing. All but one of these test vehicles were ordered to be destroyed.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/1994_Chevrolet_Corvette_coupe%2C_front_right%2C_06-16-2024.jpg/960px-1994_Chevrolet_Corvette_coupe%2C_front_right%2C_06-16-2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "MercurySable99",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1994_Chevrolet_Corvette_coupe,_front_right,_06-16-2024.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/1994_Chevrolet_Corvette_coupe%2C_front_right%2C_06-16-2024.jpg/960px-1994_Chevrolet_Corvette_coupe%2C_front_right%2C_06-16-2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Chevrolet_Corvette_(C4)"
+  },
+  {
+    "id": "land-rover-defender",
+    "make": "Land Rover",
+    "model": "Defender",
+    "from": 1983,
+    "to": 2016,
+    "country": "UK",
+    "d": "The Land Rover Defender (introduced as the Land Rover One Ten, joined in 1984  by the Land Rover Ninety, plus the extra-length Land Rover One Two Seven in 1985) is a series of British off-road cars and pickup trucks. They have four-wheel drive, and were developed in the 1980s from the Land Rover series which was launched at the Amsterdam Motor Show in April 1948. Following the 1989 introduction of the Land Rover Discovery, \"Land Rover\" became the name of a broader marque, no longer the name of a specific model; thus, in 1990, Land Rover renamed them Defender 90, Defender 110 and Defender 130 respectively.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/2015_Land_Rover_Defender_%28L316_MY15%29_90_3-door_wagon_%282015-10-24%29_01.jpg/960px-2015_Land_Rover_Defender_%28L316_MY15%29_90_3-door_wagon_%282015-10-24%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "OSX",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:2015_Land_Rover_Defender_(L316_MY15)_90_3-door_wagon_(2015-10-24)_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/2015_Land_Rover_Defender_%28L316_MY15%29_90_3-door_wagon_%282015-10-24%29_01.jpg/960px-2015_Land_Rover_Defender_%28L316_MY15%29_90_3-door_wagon_%282015-10-24%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Land_Rover_Defender"
+  },
+  {
     "id": "suzuki-cultus",
     "make": "Suzuki",
     "model": "Cultus",
@@ -2058,6 +2604,168 @@
     "wiki": "https://en.wikipedia.org/wiki/Suzuki_Cultus"
   },
   {
+    "id": "toyota-corolla-e80",
+    "make": "Toyota",
+    "model": "Corolla E80",
+    "from": 1983,
+    "to": 1987,
+    "country": "Japan",
+    "d": "The Toyota Corolla E80 is a range of small automobiles manufactured and marketed by Toyota from 1983 to 1987 as the fifth generation of cars under the Corolla and Toyota Sprinter nameplates. Production totalled approximately 3.3 million, and most models adopted a front-wheel drive layout.\nThe AE85 and AE86 Corolla Levin and Sprinter Trueno (SR-5/GT-S in US) retained rear-wheel drive from the previous E70 generation, along with the three-door \"liftback\" (E72), three-door van (E70) and five-door wagon (E70) of the previous generation, which remained in production.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/1987_Toyota_Corolla_LE_sedan%2C_front_left.jpg/960px-1987_Toyota_Corolla_LE_sedan%2C_front_left.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Mr.choppers",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1987_Toyota_Corolla_LE_sedan,_front_left.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/1987_Toyota_Corolla_LE_sedan%2C_front_left.jpg/960px-1987_Toyota_Corolla_LE_sedan%2C_front_left.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Toyota_Corolla_(E80)"
+  },
+  {
+    "id": "volkswagen-golf-mk2",
+    "make": "Volkswagen",
+    "model": "Golf Mk2",
+    "from": 1983,
+    "to": 1992,
+    "country": "Germany",
+    "d": "The Volkswagen Golf Mk2 is a hatchback, the second generation of the Volkswagen Golf and the successor to the Volkswagen Golf Mk1. It was Volkswagen's highest volume seller from 1983 and ended (German) production in late 1992, to be replaced by the Volkswagen Golf Mk3. The Mk2 was larger than the Mk1; its wheelbase grew slightly (+ 75 mm (3.0 in)), as did exterior dimensions (length + 180 mm (7.1 in), width + 55 mm (2.2 in), height + 5 mm (0.2 in)).",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/VW_Golf_II_front_20080206.jpg/960px-VW_Golf_II_front_20080206.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Rudolf Stricker",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "page": "https://commons.wikimedia.org/wiki/File:VW_Golf_II_front_20080206.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/VW_Golf_II_front_20080206.jpg/960px-VW_Golf_II_front_20080206.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Volkswagen_Golf_Mk2"
+  },
+  {
+    "id": "dodge-daytona",
+    "make": "Dodge",
+    "model": "Daytona",
+    "from": 1984,
+    "to": 1993,
+    "country": "USA",
+    "d": "The Dodge Daytona is an automobile which was produced by the Chrysler Corporation under their Dodge division from 1984 until 1993. It was a front-wheel drive hatchback based on the Chrysler G platform, which was derived from the Chrysler K platform. The Chrysler Laser was an upscale rebadged version of the Daytona.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/1991_Daytona_CS.JPG/960px-1991_Daytona_CS.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Bamman",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1991_Daytona_CS.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/1991_Daytona_CS.JPG/960px-1991_Daytona_CS.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Dodge_Daytona"
+  },
+  {
+    "id": "ferrari-testarossa",
+    "make": "Ferrari",
+    "model": "Testarossa",
+    "from": 1984,
+    "to": 1991,
+    "country": "Italy",
+    "d": "The Ferrari Testarossa (Type F110) is a 12-cylinder mid-engine sports car manufactured by Ferrari, which went into production in 1984 as the successor to the Ferrari Berlinetta Boxer. The Pininfarina-designed car was originally produced from 1984 until 1991, with two model revisions following the end of Testarossa production called the 512 TR and F512 M, which were produced from 1992 until 1996. Including revised variations, almost 10,000 cars in total were produced, making it at the time one of the most mass-produced Ferrari models.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Ferrari_Testarossa_IMG_3043.jpg/960px-Ferrari_Testarossa_IMG_3043.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Alexander Migl",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferrari_Testarossa_IMG_3043.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Ferrari_Testarossa_IMG_3043.jpg/960px-Ferrari_Testarossa_IMG_3043.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ferrari_Testarossa"
+  },
+  {
+    "id": "jeep-cherokee-xj",
+    "make": "Jeep",
+    "model": "Cherokee XJ",
+    "from": 1984,
+    "to": 2001,
+    "country": "USA",
+    "d": "The Jeep Cherokee (XJ) is a sport utility vehicle developed by American Motors Corporation (AMC) and marketed across a single generation by Jeep in the United States from 1983 (model year 1984) through 2001, and globally through 2014. It was available in two- or four-door, five-passenger, front-engine, rear- or four-wheel drive configurations.\nSharing the name of the original, full-size Cherokee SJ model, the 1984 XJ Cherokee was Jeep's first all-new design since the 1963 SJ Wagoneer, as well as the first American off-road vehicle built with fully integrated body-and-frame (unibody) design, and formed the mechanical basis for the Jeep Comanche (MJ) pickup truck (1986–1992).",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Jeep_Cherokee_2-door.jpg/960px-Jeep_Cherokee_2-door.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:Jeep_Cherokee_2-door.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Jeep_Cherokee_2-door.jpg/960px-Jeep_Cherokee_2-door.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Jeep_Cherokee_(XJ)"
+  },
+  {
+    "id": "mercedes-benz-w124",
+    "make": "Mercedes-Benz",
+    "model": "W124",
+    "from": 1984,
+    "to": 1997,
+    "country": "Germany",
+    "d": "The Mercedes-Benz W124 is a range of executive cars made by Daimler-Benz from 1984 to 1997. The range included numerous body configurations, and though collectively referred to as the W-124, official internal chassis designations varied by body style: saloon (W 124); estate (S 124); coupé (C 124); cabriolet (A 124); limousine (V 124); rolling chassis (F 124); and long-wheelbase rolling chassis (VF 124).\nFrom 1993, the 124 series was officially marketed as the E-Class.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/1988_Mercedes-Benz_300d_Diesel_Automatic_3.0_Front.jpg/960px-1988_Mercedes-Benz_300d_Diesel_Automatic_3.0_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Vauxford",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1988_Mercedes-Benz_300d_Diesel_Automatic_3.0_Front.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/1988_Mercedes-Benz_300d_Diesel_Automatic_3.0_Front.jpg/960px-1988_Mercedes-Benz_300d_Diesel_Automatic_3.0_Front.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Mercedes-Benz_W124"
+  },
+  {
+    "id": "pontiac-fiero",
+    "make": "Pontiac",
+    "model": "Fiero",
+    "from": 1984,
+    "to": 1988,
+    "country": "USA",
+    "d": "The Pontiac Fiero is a rear mid-engine, light economy car manufactured and marketed by Pontiac for model years 1984 – 1988. Originally designed as a small sports car, it was subsequently revised for production into an economical commuter car with modest performance aspirations. The Fiero was Pontiac's first two-seater since their 1926 to 1938 coupes, and the first mass-produced, rear mid-engine car by any American manufacturer.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Fiero88.JPG/960px-Fiero88.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Jonrev at English Wikipedia",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:Fiero88.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Fiero88.JPG/960px-Fiero88.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Pontiac_Fiero"
+  },
+  {
+    "id": "jeep-wrangler-yj",
+    "make": "Jeep",
+    "model": "Wrangler YJ",
+    "from": 1986,
+    "to": 1995,
+    "country": "USA",
+    "d": "The Jeep Wrangler (YJ) is the first generation of Jeep Wrangler four-wheel drive small off-road vehicles, rebadging and succeeding Jeep's CJ series, which was produced from 1944 to 1986. The first Wrangler (internally \"YJ\") was launched in 1986 and ran through 1995. Although the new Wrangler stood out from its CJ predecessors by its square headlights, its body was a direct evolution of the preceding CJ-7, and rode on the same wheelbase.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/94_JEEP_Wrangler_%288235592322%29.jpg/960px-94_JEEP_Wrangler_%288235592322%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Greg Gjerdingen from Willmar, USA",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:94_JEEP_Wrangler_(8235592322).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/94_JEEP_Wrangler_%288235592322%29.jpg/960px-94_JEEP_Wrangler_%288235592322%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Jeep_Wrangler_(YJ)"
+  },
+  {
+    "id": "ferrari-f40",
+    "make": "Ferrari",
+    "model": "F40",
+    "from": 1987,
+    "to": 1992,
+    "country": "Italy",
+    "d": "The Ferrari F40 (Type F120) is a mid-engine, rear-wheel drive sports car engineered by Nicola Materazzi with styling by Pininfarina. It was built from 1987 until 1993, with the LM, Competizione, and GTE race car versions continuing production from 1994 to 1996 respectively. As the successor to the 288 GTO (also engineered by Materazzi), it was designed to celebrate Ferrari's 40th anniversary and was the last Ferrari automobile personally approved by Enzo Ferrari.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/F40_Ferrari_20090509.jpg/960px-F40_Ferrari_20090509.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Will ainsworth",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:F40_Ferrari_20090509.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/F40_Ferrari_20090509.jpg/960px-F40_Ferrari_20090509.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ferrari_F40"
+  },
+  {
     "id": "suzuki-mehran",
     "make": "Suzuki",
     "model": "Mehran",
@@ -2074,5 +2782,203 @@
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/70/Mehran_Model_2001_Right_Side_View_At_Lowari_Pass%2CChitral%2CKPK.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
     },
     "wiki": "https://en.wikipedia.org/wiki/Suzuki_Mehran"
+  },
+  {
+    "id": "bmw-8-series-e31",
+    "make": "BMW",
+    "model": "8 Series E31",
+    "from": 1989,
+    "to": 1999,
+    "country": "Germany",
+    "d": "The BMW E31 is the first generation of the BMW 8 Series. It is a grand tourer built by BMW from 1990 to 1999 as a 2-door coupé, powered by either a V8 or V12 engine. Whilst it did supplant the original E24 based 6 Series in 1990, it was not a direct successor, but a new model class with a substantially higher price and performance than the 6 Series.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/BMW_840_Ci_%287724204324%29_%28cropped%29.jpg/960px-BMW_840_Ci_%287724204324%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "nakhon100",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:BMW_840_Ci_(7724204324)_(cropped).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/BMW_840_Ci_%287724204324%29_%28cropped%29.jpg/960px-BMW_840_Ci_%287724204324%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/BMW_8_Series_(E31)"
+  },
+  {
+    "id": "bmw-z1",
+    "make": "BMW",
+    "model": "Z1",
+    "from": 1989,
+    "to": 1991,
+    "country": "Germany",
+    "d": "The BMW Z1 is a sports car which was produced in limited numbers by German manufacturer BMW from 1989 to 1991. It is the first model in BMW's line of Z series roadsters (two-seater convertibles).\nThe Z1 is unique for its plastic body panels and vertically sliding doors which drop into the door sills.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Red_BMW_Z1_HCC21.jpg/960px-Red_BMW_Z1_HCC21.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "MrWalkr",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Red_BMW_Z1_HCC21.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Red_BMW_Z1_HCC21.jpg/960px-Red_BMW_Z1_HCC21.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/BMW_Z1"
+  },
+  {
+    "id": "mercedes-benz-sl-r129",
+    "make": "Mercedes-Benz",
+    "model": "SL R129",
+    "from": 1989,
+    "to": 2002,
+    "country": "Germany",
+    "d": "The Mercedes-Benz R129 SL is a roadster which was produced by Mercedes-Benz from 1988 until 2001. The R129 replaced the R107 in 1989 and was in its turn replaced by the R230 SL-Class in 2002 for the 2003 model year.\nThe R129 was offered as a two-door roadster with an automated (electro-hydraulic), fabric convertible roof; colour-matched, automated tonneau cover; and a manually detachable hardtop that could be fitted over the stored fabric convertible roof and tonneau.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Mercedes-Benz_SL_R129_.jpg/960px-Mercedes-Benz_SL_R129_.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_SL_R129_.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Mercedes-Benz_SL_R129_.jpg/960px-Mercedes-Benz_SL_R129_.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Mercedes-Benz_SL-Class_(R129)"
+  },
+  {
+    "id": "honda-nsx",
+    "make": "Honda",
+    "model": "NSX",
+    "from": 1990,
+    "to": 2005,
+    "country": "Japan",
+    "d": "The Honda NSX (sold as the Acura NSX in North America and Hong Kong) is a two-seater sports car manufactured by Honda over two generations. The first generation was produced from 1990 until 2006, whilst the second generation was made from 2016 to 2022. The first generation was introduced as a two-door coupé, with a two-door targa top variant later added, and has a rear mid-engine, rear-wheel-drive layout.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/AcuraNSX-05-cropped.jpg/960px-AcuraNSX-05-cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Travis Rigel Lukas Hornung",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:AcuraNSX-05-cropped.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/AcuraNSX-05-cropped.jpg/960px-AcuraNSX-05-cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Honda_NSX"
+  },
+  {
+    "id": "lamborghini-diablo",
+    "make": "Lamborghini",
+    "model": "Diablo",
+    "from": 1990,
+    "to": 2001,
+    "country": "Italy",
+    "d": "The Lamborghini Diablo (meaning \"devil\" in Spanish), is a series of high-performance V12, longitudinal, mid-engined sports cars in the supercar market segment, built by Italian automobile manufacturer Lamborghini from 1990 through 2001. It is the first production Lamborghini with a top speed in excess of 200 mph (322 km/h).\nIn 1993, the Diablo VT (for 'Viscous Traction') became Lamborghini's first all-wheel drive production sportscar.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/1995_Lamborghini_Diablo_SE_30.jpg/960px-1995_Lamborghini_Diablo_SE_30.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "MrWalkr",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1995_Lamborghini_Diablo_SE_30.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/1995_Lamborghini_Diablo_SE_30.jpg/960px-1995_Lamborghini_Diablo_SE_30.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Lamborghini_Diablo"
+  },
+  {
+    "id": "dodge-stealth",
+    "make": "Dodge",
+    "model": "Stealth",
+    "from": 1991,
+    "to": 1996,
+    "country": "USA",
+    "d": "The Mitsubishi 3000GT is a front-engine, all-wheel/front-wheel drive grand touring/sports car manufactured and marketed by Mitsubishi from 1990 until 2000 over three different series. Manufactured in a three-door hatchback coupé body style in Nagoya, Japan, the 2+2 four-seaters were marketed in the Japanese domestic market as the GTO, and globally as 3000GT. In North America, it was sold both as the Mitsubishi 3000GT (1991–1999) and the Dodge Stealth (1991–1996), a badge engineered, mechanically identical captive import. As a collaborative effort between Chrysler and Mitsubishi Motors, Chrysler was responsible for the Stealth's exterior styling.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Mitsubishi_3000GT_--_03-21-2012.JPG/960px-Mitsubishi_3000GT_--_03-21-2012.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "IFCAR",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_3000GT_--_03-21-2012.JPG",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Mitsubishi_3000GT_--_03-21-2012.JPG/960px-Mitsubishi_3000GT_--_03-21-2012.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Mitsubishi_3000GT"
+  },
+  {
+    "id": "mercedes-benz-s-class-w140",
+    "make": "Mercedes-Benz",
+    "model": "S-Class W140",
+    "from": 1991,
+    "to": 1998,
+    "country": "Germany",
+    "d": "The Mercedes-Benz W140 is a series of flagship vehicles manufactured by Mercedes-Benz from 1991 to 1998 in sedan/saloon and coupe body styles and two wheelbase lengths (SE and SEL). Mercedes-Benz unveiled the W140 S-Class at the Geneva International Motor Show in March 1991, with the sales starting in April 1991 and North American launch was on 6 August 1991.\nAll models were renamed in June 1993 as part of the corporate-wide nomenclature changes for 1994 model year on, becoming \"S\" regardless of wheelbase length or body style as well as fuel type.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Mercedes-Benz_S-Klasse_%28W_140%2C_Facelift%29_%E2%80%93_Frontansicht%2C_10._August_2013%2C_Hilden_%28cropped%29.jpg/960px-Mercedes-Benz_S-Klasse_%28W_140%2C_Facelift%29_%E2%80%93_Frontansicht%2C_10._August_2013%2C_Hilden_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "M 93",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_S-Klasse_(W_140,_Facelift)_%E2%80%93_Frontansicht,_10._August_2013,_Hilden_(cropped).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Mercedes-Benz_S-Klasse_%28W_140%2C_Facelift%29_%E2%80%93_Frontansicht%2C_10._August_2013%2C_Hilden_%28cropped%29.jpg/960px-Mercedes-Benz_S-Klasse_%28W_140%2C_Facelift%29_%E2%80%93_Frontansicht%2C_10._August_2013%2C_Hilden_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Mercedes-Benz_W140"
+  },
+  {
+    "id": "toyota-corolla-e100",
+    "make": "Toyota",
+    "model": "Corolla E100",
+    "from": 1991,
+    "to": 2002,
+    "country": "Japan",
+    "d": "The Corolla E100 is the seventh generation of cars sold by Toyota under the Corolla nameplate. This generation of Corolla is larger, heavier, and visually more aerodynamic than the model it replaced. With its 2,465 mm (97.0 in) wheelbase, the Corolla had moved into the compact size class once occupied by the Corona and Camry.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/1996-1999_Toyota_Corolla_%28AE101R%29_CSi_sedan_%282011-06-15%29_01.jpg/960px-1996-1999_Toyota_Corolla_%28AE101R%29_CSi_sedan_%282011-06-15%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "OSX",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:1996-1999_Toyota_Corolla_(AE101R)_CSi_sedan_(2011-06-15)_01.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/1996-1999_Toyota_Corolla_%28AE101R%29_CSi_sedan_%282011-06-15%29_01.jpg/960px-1996-1999_Toyota_Corolla_%28AE101R%29_CSi_sedan_%282011-06-15%29_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Toyota_Corolla_(E100)"
+  },
+  {
+    "id": "dodge-viper",
+    "make": "Dodge",
+    "model": "Viper",
+    "from": 1992,
+    "to": 2017,
+    "country": "USA",
+    "d": "The Dodge Viper is an American sports car that was manufactured by Dodge (by SRT for 2013 and 2014), a division of American car manufacturer Chrysler. First showcased in 1989 at the North American International Auto Show as a interpretative concept car of a modern-era AC Cobra, production of the two-seat sports car later began at New Mack Assembly Plant in 1991 and moved to Conner Avenue Assembly Plant in October 1995. Five generations of the Viper were developed from 1991 until 2017, with a brief hiatus in 2007 and between 2011 and 2012.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/%22_14_Fiat-Chrysler_SRT_Viper_GTS_%28cropped%29.jpg/960px-%22_14_Fiat-Chrysler_SRT_Viper_GTS_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Patrick Corcoran",
+      "license": "CC BY 2.0 it",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/it/deed.en",
+      "page": "https://commons.wikimedia.org/wiki/File:%22_14_Fiat-Chrysler_SRT_Viper_GTS_(cropped).jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/%22_14_Fiat-Chrysler_SRT_Viper_GTS_%28cropped%29.jpg/960px-%22_14_Fiat-Chrysler_SRT_Viper_GTS_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Dodge_Viper"
+  },
+  {
+    "id": "ford-mustang-sn95",
+    "make": "Ford",
+    "model": "Mustang SN95",
+    "from": 1994,
+    "to": 2004,
+    "country": "USA",
+    "d": "The fourth-generation Ford Mustang is a pony car produced by the Ford Motor Company for the 1994 through 2004 model years. Marking the first major redesign of the Ford Mustang in fifteen years, the fourth generation of the pony car was introduced in November 1993 with the launch taking place on December 9, 1993. The design (which was code-named \"SN95\" by Ford), was based on an updated version of the Fox platform and was the final vehicle underpinned with this platform.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/2002_Ford_Mustang_GT_Coupe_in_Mineral_Grey_Metallic%2C_Front_Right%2C_05-06-2023.jpg/960px-2002_Ford_Mustang_GT_Coupe_in_Mineral_Grey_Metallic%2C_Front_Right%2C_05-06-2023.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "Elise240SX",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:2002_Ford_Mustang_GT_Coupe_in_Mineral_Grey_Metallic,_Front_Right,_05-06-2023.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/2002_Ford_Mustang_GT_Coupe_in_Mineral_Grey_Metallic%2C_Front_Right%2C_05-06-2023.jpg/960px-2002_Ford_Mustang_GT_Coupe_in_Mineral_Grey_Metallic%2C_Front_Right%2C_05-06-2023.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/Ford_Mustang_(fourth_generation)"
+  },
+  {
+    "id": "bmw-z3",
+    "make": "BMW",
+    "model": "Z3",
+    "from": 1995,
+    "to": 2002,
+    "country": "Germany",
+    "d": "The BMW Z3 is a range of two-seater sports cars which was produced from 1995 to 2002. The body styles of the range are:\n\n2-door roadster (E36/7 model code)\n2-door coupé (E36/8 model code)\nThe Z3 was based on the E36/5 compact platform, a shortened version of the conventional E36 platform. This smaller and cheaper platform used the rear semi-trailing arm suspension design from the older E30 3 Series.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/1999_BMW_Z3_2.3_roadster%2C_front_right%2C_08-24-2024.jpg/960px-1999_BMW_Z3_2.3_roadster%2C_front_right%2C_08-24-2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "credit": {
+      "author": "MercurySable99",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:1999_BMW_Z3_2.3_roadster,_front_right,_08-24-2024.jpg",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/1999_BMW_Z3_2.3_roadster%2C_front_right%2C_08-24-2024.jpg/960px-1999_BMW_Z3_2.3_roadster%2C_front_right%2C_08-24-2024.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    "wiki": "https://en.wikipedia.org/wiki/BMW_Z3"
   }
 ]
