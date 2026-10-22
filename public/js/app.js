@@ -102,3 +102,21 @@ addEventListener("hashchange",()=>{route();showLoad(1100)});route();
 $("#hs").onsubmit=e=>{e.preventDefault();$("#q").value=$("#hq").value;render();location.hash="#/gallery"};
 dlg.addEventListener("click",e=>{if(e.target==dlg)dlg.close()});
 loadCars().then(list=>{cars=list;initCars()});
+
+/* Feedback form: send to Netlify Forms without leaving the page */
+(function(){
+  const f=document.querySelector('form[name="feedback"]');
+  if(!f) return;
+  f.addEventListener("submit",async e=>{
+    e.preventDefault();
+    const btn=f.querySelector("button");btn.disabled=true;btn.textContent="Sending...";
+    try{
+      const r=await fetch("/",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:new URLSearchParams(new FormData(f)).toString()});
+      if(!r.ok) throw new Error(r.status);
+      f.innerHTML='<h2>Thank you!</h2><p class="fbhint">Your message was sent. We read every suggestion.</p>';
+    }catch(err){
+      btn.disabled=false;btn.textContent="Send";
+      alert("Sorry, the message could not be sent. Please try again later.");
+    }
+  });
+})();
