@@ -7,7 +7,7 @@ function headExtras(cfg) {
   if (cfg.searchConsoleToken) h += `<meta name="google-site-verification" content="${esc(cfg.searchConsoleToken)}">\n`;
   if (cfg.adsenseId) h += `<meta name="google-adsense-account" content="${esc(cfg.adsenseId)}">\n`;
   const ids = JSON.stringify({ analyticsId: cfg.analyticsId || '', adsenseId: cfg.adsenseId || '' }).replace(/</g, '\\u003c');
-  h += `<script>window.AV_CFG=${ids};</script>\n<script src="/js/consent.js" defer></script>\n`;
+  h += `<script>window.AV_CFG=${ids};</script>\n<script src="/js/common.js"></script>\n<script src="/js/consent.js" defer></script>\n`;
   return h;
 }
 
@@ -22,6 +22,8 @@ function seoTags({ title, desc, url, image, cfg }) {
 <meta property="og:image" content="${esc(image)}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#62752F">
 ${headExtras(cfg)}`;
 }
 
@@ -38,7 +40,7 @@ ${seoTags({ title, desc, url, image, cfg })}<link href="${FONTS}" rel="styleshee
 <body>
 ${nav}
 ${body}
-<footer><div class="wrap">Autoryva &middot; <a href="/credits.html">Credits and licenses</a> &middot; <a href="/privacy.html">Privacy</a> &middot; <a href="/terms.html">Terms</a> &middot; Car text and photos come from Wikipedia and Wikimedia Commons.</div></footer>
+<footer><div class="wrap">Autoryva &middot; <a href="/#/about">About</a> &middot; <a href="/credits.html">Credits and licenses</a> &middot; <a href="/privacy.html">Privacy</a> &middot; <a href="/terms.html">Terms</a> &middot; Car text and photos come from Wikipedia and Wikimedia Commons.</div></footer>
 </body>
 </html>
 `;
@@ -46,7 +48,8 @@ ${body}
 
 const short = (t, n) => { t = String(t || '').replace(/\s+/g, ' ').trim(); return t.length <= n ? t : t.slice(0, n - 1).replace(/\s+\S*$/, '') + '\u2026'; };
 const name = c => `${c.make} ${c.model}`;
-const cardHtml = c => `<a class="card" href="/cars/${esc(c.id)}.html">${c.image ? `<img src="${esc(c.image)}" alt="${esc(name(c))}" loading="lazy" referrerpolicy="no-referrer">` : '<div class="ph"></div>'}<div class="b"><span class="yr">${c.from}\u2013${c.to}</span><h3 style="margin-top:8px">${esc(name(c))}</h3><div class="meta">${esc(c.country)}</div></div></a>`;
+const cardHtml = c => `<a class="card" href="/cars/${esc(c.id)}.html">${c.image ? `<img src="${esc(c.image)}" alt="${esc(name(c))}" loading="lazy" referrerpolicy="no-referrer">` : '<div class="ph"></div>'}<button class="ic cp" data-c="${esc(c.id)}" aria-label="Compare">\u21C4</button><button class="ic" data-f="${esc(c.id)}" aria-label="Save">\u2665</button><div class="b"><span class="yr">${c.from}\u2013${c.to}</span><h3 style="margin-top:8px">${esc(name(c))}</h3><div class="meta">${esc(c.country)}</div></div></a>`;
+const slug = s => String(s).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
 function creditLine(c) {
   if (!c.credit) return '';
@@ -63,18 +66,23 @@ function carPage(c, all, site, nav, cfg, notes) {
   const related = all.filter(x => x.id !== c.id).sort((a, b) => Math.abs(a.from - c.from) - Math.abs(b.from - c.from)).slice(0, 3);
   const text = encodeURIComponent(`${name(c)} (${c.from}\u2013${c.to}) on Autoryva`);
   const u = encodeURIComponent(url);
+  const gal = (c.gallery && c.gallery.length ? c.gallery : (c.image ? [{ image: c.image, credit: c.credit }] : []));
+  const span = 150, left = Math.max(0, (c.from - 1880) / span * 100), wid = Math.max(2, (Math.min(c.to, 2030) - c.from) / span * 100);
+  const photos = gal.length ? `<div class="gal"><img id="gmain" class="car-img" src="${esc(gal[0].image)}" alt="${esc(name(c))}" referrerpolicy="no-referrer"><div id="gcr">${creditLine({ credit: gal[0].credit })}</div>${gal.length > 1 ? `<div class="th">${gal.map((x, i) => `<button type="button" class="${i ? '' : 'on'}" aria-label="Photo ${i + 1}" data-src="${esc(x.image)}" data-cr="${esc(creditLine({ credit: x.credit }))}" onclick="gsel(this)"><img src="${esc(x.image)}" alt="" loading="lazy" referrerpolicy="no-referrer"></button>`).join('')}</div>` : ''}</div>
+<script>function gsel(b){document.getElementById('gmain').src=b.dataset.src;document.getElementById('gcr').innerHTML=b.dataset.cr;document.querySelectorAll('.gal .th button').forEach(function(x){x.classList.toggle('on',x===b)})}</script>` : '<div class="car-img ph"></div>';
   const body = `<main class="wrap car-page">
-<p class="crumbs"><a href="/">Home</a> / <a href="/#/gallery">Gallery</a> / ${esc(name(c))}</p>
+<p class="crumbs"><a href="/">Home</a> / <a href="/brand/${slug(c.make)}.html">${esc(c.make)}</a> / ${esc(name(c))}</p>
 <div class="car-grid">
-<div>${c.image ? `<img class="car-img" src="${esc(c.image)}" alt="${esc(name(c))}" referrerpolicy="no-referrer">` : '<div class="car-img ph"></div>'}${creditLine(c)}</div>
+<div>${photos}</div>
 <div>
 <span class="yr">${c.from}\u2013${c.to}</span>
 <h1>${esc(name(c))}</h1>
 ${notes && notes[c.id] ? `<section class="notes"><h2>Autoryva Notes</h2><p>${esc(notes[c.id])}</p></section>` : ''}
 <p class="src">From Wikipedia</p>
 <p class="lead" style="margin-top:0">${esc(c.d)}</p>
-<dl class="facts"><dt>Make</dt><dd>${esc(c.make)}</dd><dt>Model</dt><dd>${esc(c.model)}</dd><dt>Produced</dt><dd>${c.from} to ${c.to}</dd><dt>Country</dt><dd>${esc(c.country)}</dd></dl>
-<div class="share"><span>Share:</span>
+<dl class="facts"><dt>Make</dt><dd><a href="/brand/${slug(c.make)}.html">${esc(c.make)}</a></dd><dt>Model</dt><dd>${esc(c.model)}</dd><dt>Produced</dt><dd>${c.from} to ${c.to}</dd><dt>Years built</dt><dd>${Math.max(1, c.to - c.from)}</dd><dt>Country</dt><dd>${esc(c.country)}</dd></dl>
+<div class="tl" role="img" aria-label="Production years on a timeline from 1880 to 2030"><i style="left:${left.toFixed(1)}%;width:${wid.toFixed(1)}%"></i></div><div class="tlx"><span>1880</span><span>1950</span><span>2030</span></div>
+<div class="row"><button class="btn" type="button" data-f="${esc(c.id)}">\u2665 Save</button><button class="btn" type="button" data-c="${esc(c.id)}">\u21C4 Compare</button>
 <a class="btn" href="https://wa.me/?text=${text}%20${u}" target="_blank" rel="noopener">WhatsApp</a>
 <a class="btn" href="https://www.facebook.com/sharer/sharer.php?u=${u}" target="_blank" rel="noopener">Facebook</a>
 <button class="btn" type="button" onclick="navigator.clipboard.writeText(location.href).then(()=>{this.textContent='Copied!'})">Copy link</button></div>
@@ -110,6 +118,56 @@ function thanksPage(site, nav, cfg) {
     .replace('</head>', '<meta name="robots" content="noindex">\n</head>');
 }
 
+const ARTICLE_SEO = 'Stories, guides and buying tips for vintage and classic cars.';
+function page(site, nav, cfg, path, title, desc, body) {
+  return layout({ title: `${title} | Autoryva`, desc, url: `${site}${path}`, image: `${site}/assets/og-image.png`, body, nav, cfg });
+}
+const head1 = (h, p) => `<div class="page-h"><h1>${h}</h1>${p ? `<p class="lead">${p}</p>` : ''}</div>`;
+function brandsPage(all, site, nav, cfg) {
+  const m = {}; all.forEach(c => { (m[c.make] = m[c.make] || []).push(c); });
+  const tiles = Object.keys(m).sort().map(b => `<a class="tile" href="/brand/${slug(b)}.html">${esc(b)}<small>${m[b].length} car${m[b].length > 1 ? 's' : ''}</small></a>`).join('');
+  return page(site, nav, cfg, '/brands.html', 'Car brands', 'Browse vintage and classic cars by brand.', `<main class="wrap car-page">${head1('Brands', 'Every brand in the archive.')}<div class="tiles" style="margin-top:20px">${tiles}</div></main>`);
+}
+function brandPage(b, list, site, nav, cfg) {
+  return page(site, nav, cfg, `/brand/${slug(b)}.html`, `${b} classic cars`, `${list.length} classic ${b} cars with photos, years and short histories.`, `<main class="wrap car-page"><p class="crumbs"><a href="/brands.html">Brands</a> / ${esc(b)}</p>${head1(esc(b), `${list.length} car${list.length > 1 ? 's' : ''} in the archive.`)}<div class="grid" style="margin-top:20px">${list.map(cardHtml).join('')}</div></main>`);
+}
+function collectionsPage(cols, site, nav, cfg) {
+  const g = cols.map(c => `<a class="colcard" href="/collection/${c.id}.html" style="background:linear-gradient(0deg,rgba(0,0,0,.5),rgba(0,0,0,.1)),${c.color}"><h3>${esc(c.title)}</h3><p>${esc(c.desc)}</p></a>`).join('');
+  return page(site, nav, cfg, '/collections.html', 'Collections', 'Hand-picked groups of classic cars.', `<main class="wrap car-page">${head1('Collections', 'Hand-picked groups of classic cars.')}<div class="grid" style="margin-top:20px">${g}</div></main>`);
+}
+function collectionPage(col, list, site, nav, cfg) {
+  return page(site, nav, cfg, `/collection/${col.id}.html`, col.title, `${col.desc} ${list.length} cars.`, `<main class="wrap car-page"><p class="crumbs"><a href="/collections.html">Collections</a> / ${esc(col.title)}</p>${head1(esc(col.title), esc(col.desc))}<div class="grid" style="margin-top:20px">${list.map(cardHtml).join('')}</div></main>`);
+}
+function journalPage(arts, site, nav, cfg) {
+  const g = arts.map(a => `<a class="card" href="/journal/${a.slug}.html"><div class="b"><span class="meta">${esc(a.date)}</span><h3 style="margin:6px 0">${esc(a.title)}</h3><p class="meta">${esc(short(a.body[0], 120))}</p></div></a>`).join('');
+  return page(site, nav, cfg, '/journal.html', 'Journal', ARTICLE_SEO, `<main class="wrap car-page">${head1('Journal', ARTICLE_SEO)}<div class="grid" style="margin-top:20px">${g}</div></main>`);
+}
+function articlePage(a, site, nav, cfg) {
+  return page(site, nav, cfg, `/journal/${a.slug}.html`, a.title, short(a.body[0], 155), `<main class="wrap car-page art"><p class="crumbs"><a href="/journal.html">Journal</a> / ${esc(a.title)}</p><p class="meta">${esc(a.date)}</p><h1>${esc(a.title)}</h1>${a.body.map(p => `<p class="lead" style="max-width:64ch">${esc(p)}</p>`).join('')}<p><a class="btn" href="/journal.html" style="display:inline-block;text-decoration:none">\u2190 Back to journal</a></p></main>`);
+}
+function comparePage(site, nav, cfg) {
+  const body = `<main class="wrap car-page">${head1('Compare cars', 'Pick up to three cars with the \u21C4 button, then see them side by side.')}<div id="cmp" style="margin-top:20px"></div></main>
+<script>(async function(){var el=document.getElementById('cmp'),cars=[];try{cars=await (await fetch('/data/cars.json')).json()}catch(e){}
+function draw(){var l=AV.cmp().map(function(id){return cars.filter(function(c){return c.id===id})[0]}).filter(Boolean),E=AV.esc;
+if(l.length<2){el.innerHTML='<p class="lead">Choose at least two cars first.</p><a class="btn" href="/#/gallery" style="display:inline-block;text-decoration:none">Browse cars</a>';return}
+var rows=[['Years',function(c){return c.from+' to '+c.to}],['Years built',function(c){return Math.max(1,c.to-c.from)}],['Country',function(c){return c.country}],['Make',function(c){return c.make}],['Model',function(c){return c.model}]];
+el.innerHTML='<div class="tw"><table class="cmp"><tr><th></th>'+l.map(function(c){return '<th><a href="/cars/'+E(c.id)+'.html">'+E(c.make+' '+c.model)+'</a></th>'}).join('')+'</tr><tr><td></td>'+l.map(function(c){return '<td>'+(c.image?'<img src="'+E(c.image)+'" alt="" style="width:100%;border-radius:6px" referrerpolicy="no-referrer">':'')+'</td>'}).join('')+'</tr>'+rows.map(function(r){return '<tr><td>'+r[0]+'</td>'+l.map(function(c){return '<td>'+E(r[1](c))+'</td>'}).join('')+'</tr>'}).join('')+'</table></div><p><button class="btn ghost" id="clr">Clear list</button></p>';
+document.getElementById('clr').onclick=function(){try{localStorage.setItem('av-cmp','[]')}catch(e){}AV.sync();draw()}}
+draw();document.addEventListener('av-change',draw)})();</script>`;
+  return page(site, nav, cfg, '/compare.html', 'Compare cars', 'Compare classic cars side by side.', body).replace('</head>', '<meta name="robots" content="noindex">\n</head>');
+}
+function savedPage(site, nav, cfg) {
+  const body = `<main class="wrap car-page">${head1('Saved cars', 'Tap the heart on any car to keep it here. Saved cars stay on this device.')}<div class="grid" id="sv" style="margin-top:20px"></div></main>
+<script>(async function(){var el=document.getElementById('sv'),cars=[];try{cars=await (await fetch('/data/cars.json')).json()}catch(e){}
+function draw(){var l=AV.fav().map(function(id){return cars.filter(function(c){return c.id===id})[0]}).filter(Boolean);
+el.innerHTML=l.length?l.map(AV.card).join(''):'<p class="lead">Nothing saved yet.</p>';AV.sync()}
+draw();document.addEventListener('av-change',draw)})();</script>`;
+  return page(site, nav, cfg, '/saved.html', 'Saved cars', 'Your saved classic cars.', body).replace('</head>', '<meta name="robots" content="noindex">\n</head>');
+}
+function notFoundPage(site, nav, cfg) {
+  return page(site, nav, cfg, '/404.html', 'Page not found', 'This page could not be found.', `<main class="wrap nf"><h1>404</h1><p class="lead" style="margin:8px auto 20px">This page took a wrong turn.</p><a class="btn" href="/" style="display:inline-block;text-decoration:none">Back to the garage</a></main>`).replace('</head>', '<meta name="robots" content="noindex">\n</head>');
+}
+
 const when = () => new Date().toISOString().slice(0, 10);
 function legalPage(kind, site, nav, cfg) {
   const mail = cfg.contactEmail ? `<a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a>` : 'the feedback form on our About page';
@@ -134,4 +192,4 @@ function legalPage(kind, site, nav, cfg) {
   return layout({ title: `${isP ? 'Privacy Policy' : 'Terms of Use'} | Autoryva`, desc: isP ? 'How Autoryva handles your information, cookies and ads.' : 'The rules for using Autoryva and how its content is licensed.', url: `${site}/${kind}.html`, image: `${site}/assets/og-image.png`, body, nav, cfg });
 }
 
-module.exports = { carPage, creditsPage, thanksPage, legalPage, seoTags, esc };
+module.exports = { carPage, creditsPage, thanksPage, legalPage, brandsPage, brandPage, collectionsPage, collectionPage, journalPage, articlePage, comparePage, savedPage, notFoundPage, seoTags, esc, slug };

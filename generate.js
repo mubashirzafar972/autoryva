@@ -1,48 +1,67 @@
-// Generates one page per car, the credits page, sitemap.xml and robots.txt into /public
+// Generates all static pages into /public: car pages, brands, collections, journal,
+// compare, saved, credits, privacy, terms, 404, sitemap.xml, robots.txt, ads.txt
 // Runs automatically after "npm run fetch". Or run alone:  npm run build
 const fs = require('fs');
 const path = require('path');
 const cfg = require('./site.config');
-const { carPage, creditsPage, thanksPage, legalPage, seoTags } = require('./templates');
+const T = require('./templates');
+
+const readJson = (f, d) => { try { return JSON.parse(fs.readFileSync(path.join(__dirname, f), 'utf8')); } catch { return d; } };
+const matches = (c, m = {}) => (m.model || []).some(x => c.model.includes(x)) || (m.make || []).includes(c.make) ||
+  (m.country || []).includes(c.country) || (m.before && c.from < m.before);
 
 function generate(cars) {
-  let notes = {};
-  try { notes = JSON.parse(fs.readFileSync(path.join(__dirname, 'notes.json'), 'utf8')); } catch { /* notes are optional */ }
+  const notes = readJson('notes.json', {}), arts = readJson('articles.json', []), colDefs = readJson('collections.json', []);
   const site = String(process.env.SITE_URL || cfg.url).replace(/\/$/, '');
   const pub = path.join(__dirname, 'public');
   const indexFile = path.join(pub, 'index.html');
   const index = fs.readFileSync(indexFile, 'utf8');
 
-  // reuse the site's navigation bar on the generated pages
   const navMatch = index.match(/<nav>[\s\S]*?<\/nav>/);
   if (!navMatch) throw new Error('Could not find <nav> in public/index.html');
-  const nav = navMatch[0].replace(/href="#\//g, 'href="/#/').replace(/href="assets\//g, 'href="/assets/');
+  const tb = (index.match(/<!--TB-->[\s\S]*?<!--\/TB-->/) || [''])[0];
+  const nav = (navMatch[0] + '\n' + tb).replace(/href="#\//g, 'href="/#/').replace(/href="assets\//g, 'href="/assets/');
 
-  const dir = path.join(pub, 'cars');
-  fs.rmSync(dir, { recursive: true, force: true });
-  fs.mkdirSync(dir, { recursive: true });
-  for (const c of cars) fs.writeFileSync(path.join(dir, c.id + '.html'), carPage(c, cars, site, nav, cfg, notes));
-  fs.writeFileSync(path.join(pub, 'credits.html'), creditsPage(cars, site, nav, cfg));
-  fs.writeFileSync(path.join(pub, 'thanks.html'), thanksPage(site, nav, cfg));
-  for (const k of ['privacy', 'terms']) fs.writeFileSync(path.join(pub, k + '.html'), legalPage(k, site, nav, cfg));
+  const out = (rel, html) => { const f = path.join(pub, rel); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, html); };
+  for (const d of ['cars', 'brand', 'collection', 'journal']) fs.rmSync(path.join(pub, d), { recursive: true, force: true });
+
+  const urls = ['/', '/brands.html', '/collections.html', '/journal.html', '/credits.html', '/privacy.html', '/terms.html'];
+  for (const c of cars) { out(`cars/${c.id}.html`, T.carPage(c, cars, site, nav, cfg, notes)); urls.push(`/cars/${c.id}.html`); }
+
+  const byBrand = {};
+  cars.forEach(c => { (byBrand[c.make] = byBrand[c.make] || []).push(c); });
+  out('brands.html', T.brandsPage(cars, site, nav, cfg));
+  for (const b of Object.keys(byBrand)) { out(`brand/${T.slug(b)}.html`, T.brandPage(b, byBrand[b], site, nav, cfg)); urls.push(`/brand/${T.slug(b)}.html`); }
+
+  const cols = colDefs.map(d => ({ ...d, list: cars.filter(c => matches(c, d.match)) })).filter(d => d.list.length);
+  out('collections.html', T.collectionsPage(cols, site, nav, cfg));
+  for (const d of cols) { out(`collection/${d.id}.html`, T.collectionPage(d, d.list, site, nav, cfg)); urls.push(`/collection/${d.id}.html`); }
+  out('data/collections.json', JSON.stringify(cols.map(({ id, title, desc, color, list }) => ({ id, title, desc, color, count: list.length }))));
+
+  out('journal.html', T.journalPage(arts, site, nav, cfg));
+  for (const a of arts) { out(`journal/${a.slug}.html`, T.articlePage(a, site, nav, cfg)); urls.push(`/journal/${a.slug}.html`); }
+
+  out('credits.html', T.creditsPage(cars, site, nav, cfg));
+  out('thanks.html', T.thanksPage(site, nav, cfg));
+  for (const k of ['privacy', 'terms']) out(k + '.html', T.legalPage(k, site, nav, cfg));
+  out('compare.html', T.comparePage(site, nav, cfg));
+  out('saved.html', T.savedPage(site, nav, cfg));
+  out('404.html', T.notFoundPage(site, nav, cfg));
+
   const adsId = (cfg.adsenseId || '').replace(/^ca-/, '');
-  if (adsId) fs.writeFileSync(path.join(pub, 'ads.txt'), `google.com, ${adsId}, DIRECT, f08c47fec0942fa0\n`);
-
+  if (adsId) out('ads.txt', `google.com, ${adsId}, DIRECT, f08c47fec0942fa0\n`);
   const today = new Date().toISOString().slice(0, 10);
-  const urls = ['/', '/credits.html', '/privacy.html', '/terms.html', ...cars.map(c => `/cars/${c.id}.html`)];
-  fs.writeFileSync(path.join(pub, 'sitemap.xml'),
-    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
+  out('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
     urls.map(u => `  <url><loc>${site}${u}</loc><lastmod>${today}</lastmod></url>`).join('\n') + '\n</urlset>\n');
-  fs.writeFileSync(path.join(pub, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${site}/sitemap.xml\n`);
+  out('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${site}/sitemap.xml\n`);
 
-  // fill the SEO tags of the home page
-  const seo = seoTags({
+  const seo = T.seoTags({
     title: 'Autoryva | Vintage Car Archive',
     desc: `Browse ${cars.length} vintage and classic cars by make, model and year, with photos and short histories.`,
     url: site + '/', image: `${site}/assets/og-image.png`, cfg
   });
   fs.writeFileSync(indexFile, index.replace(/<!--SEO-->[\s\S]*?<!--\/SEO-->/, `<!--SEO-->\n${seo}<!--/SEO-->`));
-  console.log(`Generated ${cars.length} car pages, credits page, sitemap.xml, robots.txt (site: ${site})`);
+  console.log(`Generated ${cars.length} car pages, ${Object.keys(byBrand).length} brand pages, ${cols.length} collections, ${arts.length} articles, sitemap and more (site: ${site})`);
 }
 
 module.exports = { generate };

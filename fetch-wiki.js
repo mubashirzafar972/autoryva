@@ -94,6 +94,21 @@ async function commonsSearch(q) {
   return hit ? hit.title.replace(/^File:/, '') : null;
 }
 
+// Extra photos: the image files used inside each Wikipedia article
+async function pageImages(titles) {
+  const out = {};
+  for (const group of chunk(titles, 20)) {
+    let cont = {};
+    do {
+      const j = await api(WIKI, { action: 'query', titles: group.join('|'), prop: 'images', imlimit: 'max', ...cont });
+      for (const p of (j.query || {}).pages || []) out[p.title] = (out[p.title] || []).concat((p.images || []).map(i => i.title.replace(/^File:/, '')));
+      cont = j.continue || null;
+    } while (cont);
+  }
+  return out;
+}
+const SKIP = /logo|icon|flag|symbol|map|diagram|signature|commons|wiki|ambox|question|edit|crystal|sound|stub|badge|emblem|disambig|chart|plate|poster|advert/i;
+
 async function buildData() {
   const seed = JSON.parse(fs.readFileSync(SEED, 'utf8'));
   console.log(`Fetching ${seed.length} cars from Wikipedia...`);
@@ -131,13 +146,19 @@ async function buildData() {
       if (file) { s._auto = file; console.warn(`  CHECK PHOTO: ${s.make} ${s.model} -> "${file}" (found on Commons, make sure it shows the right car)`); }
     } catch (e) { console.warn(`  Photo search failed for ${s.make} ${s.model}: ${e.message}`); }
   }
+  // Up to 2 more photos per car from the Wikipedia article (JPG only). Add "photos": false to a car in seed-cars.json to skip.
+  let imgs = {};
+  try { imgs = await pageImages(rows.map(r => r.p.title)); } catch (e) { console.warn('  More photos failed:', e.message); }
+  for (const r of rows) {
+    r.extra = r.s.photos === false ? [] : (imgs[r.p.title] || []).filter(x => /\.jpe?g$/i.test(x) && !SKIP.test(x) && key(x) !== key(r.p.pageimage)).slice(0, 2);
+  }
   // "imageFile" in seed-cars.json (a file name from Wikimedia Commons) overrides the Wikipedia main image
-  const files = rows.flatMap(({ s, p }) => [key(s.imageFile || s._auto), key(p.pageimage)]).filter(Boolean);
+  const files = rows.flatMap(({ s, p, extra }) => [key(s.imageFile || s._auto), key(p.pageimage), ...(extra || []).map(key)]).filter(Boolean);
   const credits = await commonsInfo(files).catch(e => { console.warn('  Photo credits failed:', e.message); return {}; });
   if (files.length && !Object.keys(credits).length) console.warn('  WARNING: no photo credits were saved. Run again, or check that commons.wikimedia.org opens in your browser.');
 
   const used = {};
-  const cars = rows.map(({ s, p }) => {
+  const cars = rows.map(({ s, p, extra = [] }) => {
     let id = slug(`${s.make} ${s.model}`);
     used[id] = (used[id] || 0) + 1;
     if (used[id] > 1) id += '-' + used[id];
@@ -149,7 +170,14 @@ async function buildData() {
       d: (p.extract || '').trim(),
       image: useOver ? over.thumb : (p.thumbnail ? p.thumbnail.source : null),
       credit: useOver ? over : (main || (p.pageimage ? { author: '', license: '', licenseUrl: '', page: 'https://en.wikipedia.org/wiki/File:' + encodeURIComponent(p.pageimage) } : null)),
-      wiki: p.fullurl || ''
+      wiki: p.fullurl || '',
+      gallery: (() => {
+        const g = [];
+        const first = useOver ? { image: over.thumb, credit: over } : (p.thumbnail ? { image: p.thumbnail.source, credit: main || null } : null);
+        if (first) g.push(first);
+        for (const x of extra) { const i = credits[key(x)]; if (i && i.thumb) g.push({ image: i.thumb, credit: i }); }
+        return g;
+      })()
     };
   });
 

@@ -51,17 +51,24 @@ function usePhotoSlides(){
   $("#dots").innerHTML=slides.map((s,i)=>`<button aria-label="Slide ${i+1}" onclick="go(${i})"></button>`).join("");
   go(0);
 }
+const slugify=s=>String(s).normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 function initCars(){
 usePhotoSlides();
 const withImg=cars.filter(c=>c.image);
   const pick=(withImg.length>=6?withImg:cars).slice(0,6);
-  $("#feat").innerHTML=pick.map(c=>`<a class="card" href="/cars/${esc(c.id)}.html">${thumb(c)}<div class="b"><span class="yr">${c.from}–${c.to}</span><h3 style="margin-top:8px">${esc(c.make)} ${esc(c.model)}</h3><div class="meta">${esc(c.country)}</div></div></a>`).join("");
+  $("#feat").innerHTML=pick.map(c=>`<a class="card" href="/cars/${esc(c.id)}.html">${thumb(c)}${AV.btns(esc(c.id))}<div class="b"><span class="yr">${c.from}–${c.to}</span><h3 style="margin-top:8px">${esc(c.make)} ${esc(c.model)}</h3><div class="meta">${esc(c.country)}</div></div></a>`).join("");
 [...new Set(cars.map(c=>c.country))].sort().forEach(x=>$("#country").insertAdjacentHTML("beforeend",`<option>${x}</option>`));
+  const bc={};cars.forEach(c=>{bc[c.make]=(bc[c.make]||0)+1});
+  const bn=Object.keys(bc).sort();
+  $("#btiles").innerHTML=[...bn].sort((a,b)=>bc[b]-bc[a]).slice(0,8).map(b=>`<a class="tile" href="/brand/${slugify(b)}.html">${esc(b)}<small>${bc[b]} car${bc[b]>1?"s":""}</small></a>`).join("");
+  bn.forEach(b=>$("#brandsel").insertAdjacentHTML("beforeend",`<option>${esc(b)}</option>`));
+  fetch("/data/collections.json").then(r=>r.ok?r.json():[]).then(cl=>{$("#cols").innerHTML=cl.map(c=>`<a class="colcard" href="/collection/${c.id}.html" style="background:linear-gradient(0deg,rgba(0,0,0,.5),rgba(0,0,0,.1)),${c.color}"><h3>${esc(c.title)}</h3><p>${esc(c.desc)}</p></a>`).join("")}).catch(()=>{});
   renderDecades();
   render();
+  if(window.AV)AV.sync();
 }
 function art(c,w){return `<svg viewBox="0 0 400 220" role="img" aria-label="Car illustration"><rect width="400" height="220" fill="${c}"/><rect y="168" width="400" height="52" fill="rgba(0,0,0,.28)"/><path d="M52 160c0-16 8-24 26-28l46-8 30-34c6-7 14-10 24-10h74c12 0 22 5 30 14l22 28 36 6c10 2 18 10 18 22v10H52z" fill="rgba(255,255,255,.92)"/><path d="M146 96l22-0 0 28-52 6z M184 96h56l24 28h-80z" fill="${c}" opacity=".75"/><circle cx="116" cy="164" r="22" fill="#14201D"/><circle cx="116" cy="164" r="9" fill="#C8D0CB"/><circle cx="294" cy="164" r="22" fill="#14201D"/><circle cx="294" cy="164" r="9" fill="#C8D0CB"/></svg>`}
-let dec="all",ctry="all";
+let dec="all",ctry="all",brandF="",sortF="old";
 const $=s=>document.querySelector(s);
 let slides=[["#F6B26B","#B45F3C","#7A3B2B","#5B2E2A","Open tourers of the 1920s"],["#8EC5E8","#DCEEF7","#2F5D50","#3F7A5E","Roadsters of the 1930s"],["#2B3A55","#6B7FA6","#B08D57","#1A2438","Coupes of the 1950s"],["#F2D492","#D99A4E","#9B3B3B","#7A4A2A","Grand tourers of the 1960s"]];
 const sl=$("#slider");let si=0,st;
@@ -88,16 +95,20 @@ document.querySelector(".logo").addEventListener("click",()=>showLoad(1400));
 addEventListener("load",()=>{clearTimeout(lt);lt=setTimeout(hideLoad,2400)});lt=setTimeout(hideLoad,3500);
 function render(){
 const q=$("#q").value.trim().toLowerCase();
-const list=cars.filter(c=>(dec=="all"||(c.from<+dec+10&&c.to>=+dec))&&(ctry=="all"||c.country==ctry)&&(c.make+" "+c.model).toLowerCase().includes(q));
+let list=cars.filter(c=>(dec=="all"||(c.from<+dec+10&&c.to>=+dec))&&(ctry=="all"||c.country==ctry)&&(brandF==""||c.make==brandF)&&(c.make+" "+c.model).toLowerCase().includes(q));
+if(sortF=="new")list.sort((a,b)=>b.from-a.from);else if(sortF=="az")list.sort((a,b)=>(a.make+a.model).localeCompare(b.make+b.model));
 $("#count").textContent=list.length+" cars";
-$("#grid").innerHTML=list.length?list.map(c=>{const i=cars.indexOf(c);return `<a class="card" href="/cars/${esc(c.id)}.html">${thumb(c)}<div class="b"><span class="yr">${c.from}–${c.to}</span><h3 style="margin-top:8px">${esc(c.make)} ${esc(c.model)}</h3><div class="meta">${esc(c.country)}</div><p>${esc((c.d||"").slice(0,90))}…</p></div></a>`}).join(""):`<div class="empty">No cars match. Try another era or clear the search.</div>`;
+$("#grid").innerHTML=list.length?list.map(c=>{const i=cars.indexOf(c);return `<a class="card" href="/cars/${esc(c.id)}.html">${thumb(c)}${AV.btns(esc(c.id))}<div class="b"><span class="yr">${c.from}–${c.to}</span><h3 style="margin-top:8px">${esc(c.make)} ${esc(c.model)}</h3><div class="meta">${esc(c.country)}</div><p>${esc((c.d||"").slice(0,90))}…</p></div></a>`}).join(""):`<div class="empty">No cars match. Try another era or clear the search.</div>`;
+if(window.AV)AV.sync();
 }
 function show(i){const c=cars[i];const cr=c.credit?`<p class="credit">Photo: ${esc(c.credit.author||"Wikimedia Commons")}${c.credit.license?", "+(c.credit.licenseUrl?`<a href="${esc(c.credit.licenseUrl)}" target="_blank" rel="noopener">${esc(c.credit.license)}</a>`:esc(c.credit.license)):""}${c.credit.page?` (<a href="${esc(c.credit.page)}" target="_blank" rel="noopener">source</a>)`:""}</p>`:"";const wk=c.wiki?`<p><a href="${esc(c.wiki)}" target="_blank" rel="noopener">Read more on Wikipedia</a></p>`:"";$("#dbody").innerHTML=`${thumb(c)}<div class="b"><h2>${esc(c.make)} ${esc(c.model)}</h2><p style="color:var(--mute)">${esc(c.d)}</p><dl><dt>Make</dt><dd>${esc(c.make)}</dd><dt>Model</dt><dd>${esc(c.model)}</dd><dt>Produced</dt><dd>${c.from} to ${c.to}</dd><dt>Country</dt><dd>${esc(c.country)}</dd></dl>${wk}${cr}<button class="btn" onclick="dlg.close()">Close</button></div>`;dlg.showModal()}
 document.querySelectorAll(".chip").forEach(b=>b.onclick=()=>{document.querySelectorAll(".chip").forEach(x=>x.setAttribute("aria-pressed","false"));b.setAttribute("aria-pressed","true");dec=b.dataset.d;render()});
 $("#country").onchange=e=>{ctry=e.target.value;render()};
+$("#brandsel").onchange=e=>{brandF=e.target.value;render()};$("#sortsel").onchange=e=>{sortF=e.target.value;render()};
+$("#rnd").onclick=()=>{const c=cars[Math.floor(Math.random()*cars.length)];if(c)location.href="/cars/"+c.id+".html"};
 $("#q").oninput=render;
 attachSuggest($("#q"));attachSuggest($("#hq"));
-function route(){const h=location.hash.replace("#/","")||"home";const p=["home","gallery","about"].includes(h)?h:"home";document.querySelectorAll(".page").forEach(x=>x.hidden=x.id!="p-"+p);document.querySelectorAll("nav a[data-p]").forEach(a=>a.classList.toggle("on",a.dataset.p==p));scrollTo(0,0)}
+function route(){const h=location.hash.replace("#/","")||"home";const p=["home","gallery","about"].includes(h)?h:"home";document.querySelectorAll(".page").forEach(x=>x.hidden=x.id!="p-"+p);document.querySelectorAll("[data-p]").forEach(a=>a.classList.toggle("on",a.dataset.p==p));scrollTo(0,0)}
 addEventListener("hashchange",()=>{route();showLoad(1100)});route();
 $("#hs").onsubmit=e=>{e.preventDefault();$("#q").value=$("#hq").value;render();location.hash="#/gallery"};
 dlg.addEventListener("click",e=>{if(e.target==dlg)dlg.close()});

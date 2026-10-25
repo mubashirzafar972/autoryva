@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://autoryva.netlify.app/</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brands.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/collections.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/journal.html</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://autoryva.netlify.app/credits.html</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://autoryva.netlify.app/privacy.html</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://autoryva.netlify.app/terms.html</loc><lastmod>2026-10-25</lastmod></url>
@@ -170,4 +173,77 @@
   <url><loc>https://autoryva.netlify.app/cars/dodge-viper.html</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://autoryva.netlify.app/cars/ford-mustang-sn95.html</loc><lastmod>2026-10-25</lastmod></url>
   <url><loc>https://autoryva.netlify.app/cars/bmw-z3.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/benz.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/oldsmobile.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/cadillac.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/ford.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/rolls-royce.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/stutz.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/packard.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/hispano-suiza.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/bentley.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/austin.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/lancia.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/bugatti.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/duesenberg.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/mercedes-benz.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/alfa-romeo.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/hillman.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/citroen.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/delahaye.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/bmw.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/cord.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/fiat.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/volkswagen.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/willys.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/mg.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/cisitalia.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/standard.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/tucker.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/jaguar.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/land-rover.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/morris.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/peugeot.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/porsche.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/chevrolet.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/nash-healey.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/reliant.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/sunbeam.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/borgward.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/maserati.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/chrysler.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/messerschmitt.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/triumph.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/plymouth.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/renault.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/tatra.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/volvo.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/ferrari.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/aston-martin.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/hindustan.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/subaru.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/austin-healey.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/austin-morris.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/dodge.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/toyota.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/alpine.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/lincoln.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/shelby.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/studebaker.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/pontiac.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/honda.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/lamborghini.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/datsun.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/mazda.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/suzuki.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/audi.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/delorean.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/brand/jeep.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/collection/muscle.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/collection/pre-war.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/collection/european.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/collection/japanese.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/collection/pakistan.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/journal/why-the-mercedes-w123-never-dies.html</loc><lastmod>2026-10-25</lastmod></url>
+  <url><loc>https://autoryva.netlify.app/journal/muscle-cars-in-five-minutes.html</loc><lastmod>2026-10-25</lastmod></url>
 </urlset>

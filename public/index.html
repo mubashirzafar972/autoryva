@@ -15,7 +15,10 @@
 <meta property="og:image" content="https://autoryva.netlify.app/assets/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#62752F">
 <script>window.AV_CFG={"analyticsId":"","adsenseId":""};</script>
+<script src="/js/common.js"></script>
 <script src="/js/consent.js" defer></script>
 <!--/SEO-->
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;700&family=DM+Sans:wght@400;500;700&family=Kanit:ital,wght@0,500;0,700;1,800&display=swap" rel="stylesheet">
@@ -23,7 +26,10 @@
 </head>
 <body>
 <div id="load" class="first" role="status" aria-label="Loading"><div class="ll"><svg width="96" height="73" aria-hidden="true" style="--lc:var(--ink);--lb:var(--bg);overflow:visible"><use href="#lg"/></svg><div>Auto<span>ryva</span></div></div><div class="road"><div class="mc"><svg width="64" height="30" viewBox="0 0 64 30" aria-hidden="true"><path d="M2 20c0-3 2-5 6-5l7-1 6-8h14l7 8 8 2c3 1 4 2 4 4v3H2z" fill="#B08D57"/><g class="wh"><circle cx="16" cy="23" r="5" fill="#0F1715" stroke="#EDEEE8" stroke-width="1.5"/><path d="M16 19v8M12 23h8" stroke="#EDEEE8"/></g><g class="wh"><circle cx="48" cy="23" r="5" fill="#0F1715" stroke="#EDEEE8" stroke-width="1.5"/><path d="M48 19v8M44 23h8" stroke="#EDEEE8"/></g></svg></div></div><small>Warming up the engine</small></div>
-<nav><div class="wrap"><svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="lg" viewBox="20 0 76 56"><circle cx="62" cy="28" r="26" fill="#fff" stroke="#000" stroke-width="2"/><image href="assets/logo-car.png" x="26" y="16" width="62" height="23.9" style="filter:drop-shadow(.8px 0 0 #fff) drop-shadow(-.8px 0 0 #fff) drop-shadow(0 .8px 0 #fff) drop-shadow(0 -.8px 0 #fff)"/></symbol></svg><a class="logo" href="#/" style="margin:0;color:var(--navink);display:flex;align-items:center;gap:10px"><svg width="66" height="50" aria-hidden="true" style="--lc:#F7F3E6;--lb:#4B5A2A;overflow:visible"><use href="#lg"/></svg><span style="color:var(--navink)">Auto<span>ryva</span></span></a><div><a href="#/" data-p="home">Home</a><a href="#/gallery" data-p="gallery">Gallery</a><a href="#/about" data-p="about">About</a></div></div></nav>
+<nav><div class="wrap"><svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="lg" viewBox="20 0 76 56"><circle cx="62" cy="28" r="26" fill="#fff" stroke="#000" stroke-width="2"/><image href="assets/logo-car.png" x="26" y="16" width="62" height="23.9" style="filter:drop-shadow(.8px 0 0 #fff) drop-shadow(-.8px 0 0 #fff) drop-shadow(0 .8px 0 #fff) drop-shadow(0 -.8px 0 #fff)"/></symbol></svg><div style="display:flex;align-items:center"><button class="bkn" id="bk" type="button" aria-label="Go back" title="Back">←</button><a class="logo" href="#/" style="margin:0;color:var(--navink);display:flex;align-items:center;gap:10px"><svg width="66" height="50" aria-hidden="true" style="--lc:#F7F3E6;--lb:#4B5A2A;overflow:visible"><use href="#lg"/></svg><span style="color:var(--navink)">Auto<span>ryva</span></span></a></div><div class="nlinks"><a href="#/" data-p="home">Home</a><a href="#/gallery" data-p="gallery">Gallery</a><a href="/brands.html" data-s="/brand">Brands</a><a href="/collections.html" data-s="/collection">Collections</a><a href="/journal.html" data-s="/journal">Journal</a><a href="/compare.html" data-s="/compare">Compare<span class="bd bc">0</span></a><a href="/saved.html" data-s="/saved">Saved<span class="bd bs">0</span></a><a href="#/about" data-p="about">About</a></div></div></nav>
+<!--TB-->
+<div class="tb" role="navigation" aria-label="Main"><a href="#/" data-p="home"><b>⌂</b>Home</a><a href="#/gallery" data-p="gallery"><b>▦</b>Cars</a><a href="/journal.html" data-s="/journal"><b>✎</b>Journal</a><a href="/compare.html" data-s="/compare"><b>⇄</b>Compare</a><a href="/saved.html" data-s="/saved"><b>♥</b>Saved</a></div>
+<!--/TB-->
 <div class="page" id="p-home">
 
 <header class="hero"><div class="slider" id="slider"></div><div class="wrap">
@@ -35,7 +41,9 @@
 <div class="dots" id="dots"></div><div class="cap" id="cap"></div>
 </div></header>
 <section class="wrap" style="padding:48px 20px 0"><h2 style="font-size:1.8rem;margin-bottom:20px">Browse by decade</h2><div class="grid" id="decs" style="padding-bottom:28px"></div></section>
-<section class="wrap" style="padding:20px 20px 64px"><h2 style="font-size:1.8rem;margin-bottom:20px">Featured cars</h2><div class="grid" id="feat" style="padding-bottom:28px"></div><a class="btn" href="#/gallery" style="display:inline-block;text-decoration:none">View full gallery</a></section></div>
+<section class="wrap" style="padding:20px 20px 0"><h2 style="font-size:1.8rem;margin-bottom:20px">Browse by brand</h2><div class="tiles" id="btiles"></div><p style="margin-top:14px"><a href="/brands.html">All brands →</a></p></section>
+<section class="wrap" style="padding:28px 20px 0"><h2 style="font-size:1.8rem;margin-bottom:20px">Collections</h2><div class="grid" id="cols"></div></section>
+<section class="wrap" style="padding:28px 20px 64px"><h2 style="font-size:1.8rem;margin-bottom:20px">Featured cars</h2><div class="grid" id="feat" style="padding-bottom:28px"></div><a class="btn" href="#/gallery" style="display:inline-block;text-decoration:none">View full gallery</a></section></div>
 
 <div class="page" id="p-gallery" hidden><main class="wrap" id="cars"><h1 style="font-size:2.2rem;margin-top:36px">Gallery</h1>
 <div class="bar" role="group" aria-label="Filter by decade">
@@ -50,7 +58,7 @@
 <button class="chip" aria-pressed="false" data-d="1990">1990s</button>
 <button class="chip" aria-pressed="false" data-d="2000">2000s</button>
 <input id="q" type="search" placeholder="Search make or model" aria-label="Search cars" style="padding:8px 12px;border-radius:6px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit"><span class="sp"></span>
-<select id="country" aria-label="Country"><option value="all">All countries</option></select>
+<select id="country" aria-label="Country"><option value="all">All countries</option></select><select id="brandsel" aria-label="Brand"><option value="">All brands</option></select><select id="sortsel" aria-label="Sort"><option value="old">Oldest first</option><option value="new">Newest first</option><option value="az">A to Z</option></select><button class="chip" type="button" id="rnd">Surprise me</button>
 </div>
 <div class="count" id="count"></div>
 <div class="grid" id="grid"></div>
@@ -77,7 +85,7 @@
 </form>
 </div>
 </div></section>
-</div><footer><div class="wrap">Autoryva. Car text and photos come from Wikipedia and Wikimedia Commons. The license and photographer are listed on each car. <a href="/credits.html">Credits and licenses</a> &middot; <a href="/privacy.html">Privacy</a> &middot; <a href="/terms.html">Terms</a></div></footer>
+</div><footer><div class="wrap">Autoryva. Car text and photos come from Wikipedia and Wikimedia Commons. The license and photographer are listed on each car. <a href="#/about">About</a> &middot; <a href="/credits.html">Credits and licenses</a> &middot; <a href="/privacy.html">Privacy</a> &middot; <a href="/terms.html">Terms</a></div></footer>
 
 <dialog id="dlg"><div id="dbody"></div></dialog>
 
