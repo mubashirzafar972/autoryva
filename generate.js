@@ -3,9 +3,11 @@
 const fs = require('fs');
 const path = require('path');
 const cfg = require('./site.config');
-const { carPage, creditsPage, thanksPage, seoTags } = require('./templates');
+const { carPage, creditsPage, thanksPage, legalPage, seoTags } = require('./templates');
 
 function generate(cars) {
+  let notes = {};
+  try { notes = JSON.parse(fs.readFileSync(path.join(__dirname, 'notes.json'), 'utf8')); } catch { /* notes are optional */ }
   const site = String(process.env.SITE_URL || cfg.url).replace(/\/$/, '');
   const pub = path.join(__dirname, 'public');
   const indexFile = path.join(pub, 'index.html');
@@ -19,12 +21,15 @@ function generate(cars) {
   const dir = path.join(pub, 'cars');
   fs.rmSync(dir, { recursive: true, force: true });
   fs.mkdirSync(dir, { recursive: true });
-  for (const c of cars) fs.writeFileSync(path.join(dir, c.id + '.html'), carPage(c, cars, site, nav, cfg));
+  for (const c of cars) fs.writeFileSync(path.join(dir, c.id + '.html'), carPage(c, cars, site, nav, cfg, notes));
   fs.writeFileSync(path.join(pub, 'credits.html'), creditsPage(cars, site, nav, cfg));
   fs.writeFileSync(path.join(pub, 'thanks.html'), thanksPage(site, nav, cfg));
+  for (const k of ['privacy', 'terms']) fs.writeFileSync(path.join(pub, k + '.html'), legalPage(k, site, nav, cfg));
+  const adsId = (cfg.adsenseId || '').replace(/^ca-/, '');
+  if (adsId) fs.writeFileSync(path.join(pub, 'ads.txt'), `google.com, ${adsId}, DIRECT, f08c47fec0942fa0\n`);
 
   const today = new Date().toISOString().slice(0, 10);
-  const urls = ['/', '/credits.html', ...cars.map(c => `/cars/${c.id}.html`)];
+  const urls = ['/', '/credits.html', '/privacy.html', '/terms.html', ...cars.map(c => `/cars/${c.id}.html`)];
   fs.writeFileSync(path.join(pub, 'sitemap.xml'),
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
     urls.map(u => `  <url><loc>${site}${u}</loc><lastmod>${today}</lastmod></url>`).join('\n') + '\n</urlset>\n');

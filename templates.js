@@ -5,7 +5,9 @@ const FONTS = 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700
 function headExtras(cfg) {
   let h = '';
   if (cfg.searchConsoleToken) h += `<meta name="google-site-verification" content="${esc(cfg.searchConsoleToken)}">\n`;
-  if (cfg.analyticsId) h += `<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(cfg.analyticsId)}"></script>\n<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${esc(cfg.analyticsId)}');</script>\n`;
+  if (cfg.adsenseId) h += `<meta name="google-adsense-account" content="${esc(cfg.adsenseId)}">\n`;
+  const ids = JSON.stringify({ analyticsId: cfg.analyticsId || '', adsenseId: cfg.adsenseId || '' }).replace(/</g, '\\u003c');
+  h += `<script>window.AV_CFG=${ids};</script>\n<script src="/js/consent.js" defer></script>\n`;
   return h;
 }
 
@@ -36,7 +38,7 @@ ${seoTags({ title, desc, url, image, cfg })}<link href="${FONTS}" rel="styleshee
 <body>
 ${nav}
 ${body}
-<footer><div class="wrap">Autoryva &middot; <a href="/credits.html">Credits and licenses</a> &middot; Car text and photos come from Wikipedia and Wikimedia Commons.</div></footer>
+<footer><div class="wrap">Autoryva &middot; <a href="/credits.html">Credits and licenses</a> &middot; <a href="/privacy.html">Privacy</a> &middot; <a href="/terms.html">Terms</a> &middot; Car text and photos come from Wikipedia and Wikimedia Commons.</div></footer>
 </body>
 </html>
 `;
@@ -53,7 +55,7 @@ function creditLine(c) {
   return `<p class="credit">Photo: ${esc(cr.author || 'Wikimedia Commons')}${lic ? ', ' + lic : ''}${cr.page ? ` (<a href="${esc(cr.page)}" target="_blank" rel="noopener">source</a>)` : ''}</p>`;
 }
 
-function carPage(c, all, site, nav, cfg) {
+function carPage(c, all, site, nav, cfg, notes) {
   const url = `${site}/cars/${c.id}.html`;
   const title = `${name(c)} (${c.from}\u2013${c.to}) | Autoryva`;
   const desc = short(c.d || `${name(c)}, a classic car from ${c.country}, built ${c.from} to ${c.to}.`, 155);
@@ -68,7 +70,9 @@ function carPage(c, all, site, nav, cfg) {
 <div>
 <span class="yr">${c.from}\u2013${c.to}</span>
 <h1>${esc(name(c))}</h1>
-<p class="lead">${esc(c.d)}</p>
+${notes && notes[c.id] ? `<section class="notes"><h2>Autoryva Notes</h2><p>${esc(notes[c.id])}</p></section>` : ''}
+<p class="src">From Wikipedia</p>
+<p class="lead" style="margin-top:0">${esc(c.d)}</p>
 <dl class="facts"><dt>Make</dt><dd>${esc(c.make)}</dd><dt>Model</dt><dd>${esc(c.model)}</dd><dt>Produced</dt><dd>${c.from} to ${c.to}</dd><dt>Country</dt><dd>${esc(c.country)}</dd></dl>
 <div class="share"><span>Share:</span>
 <a class="btn" href="https://wa.me/?text=${text}%20${u}" target="_blank" rel="noopener">WhatsApp</a>
@@ -106,4 +110,28 @@ function thanksPage(site, nav, cfg) {
     .replace('</head>', '<meta name="robots" content="noindex">\n</head>');
 }
 
-module.exports = { carPage, creditsPage, thanksPage, seoTags, esc };
+const when = () => new Date().toISOString().slice(0, 10);
+function legalPage(kind, site, nav, cfg) {
+  const mail = cfg.contactEmail ? `<a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a>` : 'the feedback form on our About page';
+  const privacy = `<h1>Privacy Policy</h1><p class="lead">Last updated: ${when()}</p>
+<h2>Who we are</h2><p>Autoryva is a free guide to vintage and classic cars at ${esc(site)}. You can reach us through ${mail}.</p>
+<h2>What we collect</h2><p>If you send us a message through the feedback form, we receive the message and the name or email you chose to type. We use it only to read and answer your feedback. Cars you save in the browser stay on your own device.</p>
+<h2>Cookies and similar technology</h2><p>When you click Accept on our cookie notice, we may load Google Analytics to count visits and Google AdSense to show ads. These services may set cookies and collect information such as your device, pages viewed and approximate location. If you click Decline, we do not load them. You can clear your browser storage at any time to see the notice again.</p>
+<h2>Advertising</h2><p>Google and its partners may use cookies to show ads based on your visits to this and other sites. You can manage personalised ads in your Google ad settings.</p>
+<h2>Other services</h2><p>Our pages load car photos and text from Wikipedia and Wikimedia Commons, fonts from Google Fonts, and are hosted by Netlify. These services receive your IP address when your browser loads their files and have their own privacy policies.</p>
+<h2>Your choices</h2><p>You can ask us to delete a message you sent, and you can block cookies in your browser settings. We do not sell personal information.</p>
+<h2>Children</h2><p>This site is a general interest site and is not directed at children under 13.</p>
+<h2>Changes</h2><p>We may update this policy and will change the date above when we do.</p>`;
+  const terms = `<h1>Terms of Use</h1><p class="lead">Last updated: ${when()}</p>
+<h2>Using the site</h2><p>Autoryva is provided free for personal, non-commercial reading. Please do not misuse the site or try to disrupt it.</p>
+<h2>Content and licenses</h2><p>Car descriptions marked From Wikipedia come from Wikipedia and are available under the CC BY-SA 4.0 license. Photos come from Wikimedia Commons and belong to their photographers under the licenses shown on each page and on the Credits page. The Autoryva Notes and journal articles are our own work. Please link back to us if you share them.</p>
+<h2>Accuracy</h2><p>We try to be accurate, but car details, years and facts may contain mistakes. The information is for general interest and is not advice for buying, selling or repairing a car. Please verify details before making any decision.</p>
+<h2>Links</h2><p>We link to other websites, and we are not responsible for their content.</p>
+<h2>Liability</h2><p>The site is provided as it is, without promises of any kind, and we are not liable for loss caused by using it.</p>
+<h2>Contact</h2><p>Questions or corrections: ${mail}.</p>`;
+  const isP = kind === 'privacy';
+  const body = `<main class="wrap car-page legal">${isP ? privacy : terms}</main>`;
+  return layout({ title: `${isP ? 'Privacy Policy' : 'Terms of Use'} | Autoryva`, desc: isP ? 'How Autoryva handles your information, cookies and ads.' : 'The rules for using Autoryva and how its content is licensed.', url: `${site}/${kind}.html`, image: `${site}/assets/og-image.png`, body, nav, cfg });
+}
+
+module.exports = { carPage, creditsPage, thanksPage, legalPage, seoTags, esc };
